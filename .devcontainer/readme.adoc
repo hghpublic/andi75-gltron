@@ -1,0 +1,51 @@
+== Read Me
+
+https://github.com/devcontainers/images/tree/main/src/cpp
+
+link:https://github.com/features/codespaces[Codespaces]
+
+link:http://fluxbox.org/[Fluxbox]
+
+=== GitHub
+
+link:https://github.com/microsoft/vscode-dev-containers[VS Code Remote / GitHub Codespaces Container Definitions]
+
+link:https://github.com/microsoft/vscode-dev-containers/tree/main/containers[Development Container Definitions]
+
+link:https://github.com/microsoft/vscode-dev-containers/tree/main/containers/cpp[C++]
+
+link:https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/docs/desktop-lite.md[Desktop (Lightweight) Install Script]
+
+link:https://devblogs.microsoft.com/cppblog/customizing-github-codespaces-for-cpp-projects/[Customizing GitHub Codespaces for C++ Projects]
+
+link:https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/[Codespaces for multi-repository and monorepo scenarios]
+
+https://github.blog/category/engineering/
+
+=== Visual Studio
+
+link:https://code.visualstudio.com/docs/remote/containers[Developing inside a Container]
+
+link:https://code.visualstudio.com/docs/remote/devcontainerjson-reference[devcontainer.json reference]
+
+link:https://code.visualstudio.com/docs/remote/create-dev-container[Create a development container]
+
+[source, json]
+----
+"features": {
+    "git": "latest",
+    "github-cli": "latest",
+    "shellcheck": "latest",
+    "tree": "latest"
+}
+----
+
+=== vcpkg
+
+https://github.com/microsoft/vcpkg
+
+https://github.com/microsoft/vcpkg/blob/master/docs/README.md
+
+=== Docker
+
+link:https://docs.docker.com/develop/develop-images/dockerfile_best-practices/[Best practices for writing Dockerfiles]

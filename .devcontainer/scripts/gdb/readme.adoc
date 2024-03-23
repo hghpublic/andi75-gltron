@@ -1,0 +1,56 @@
+= Read Me
+
+[source, sh]
+----
+$ readelf -d $(which gdb) | grep python
+ 0x0000000000000001 (NEEDED)             Shared library: [libpython3.10.so.1.0]
+----
+https://github.com/microsoft/vscode-cpptools/issues/4568
+
+
+`~/.gdbinit`
+----
+python
+import sys
+sys.path.insert(0, '/usr/share/gcc-6/python/')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
+----
+
+
+----
+python
+import sys
+sys.path.insert(0, '/usr/share/gcc/python/')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
+----
+
+
+----
+$ ll /usr/share/gcc/python/
+total 4.0K
+drwxr-xr-x 3 root root 4.0K May 22 14:07 libstdcxx
+$ ll /usr/share/gcc/python/libstdcxx/v6/         
+total 120K
+-rw-r--r-- 1 root root 1.2K May 13  2022 __init__.py
+-rw-r--r-- 1 root root  86K May 13  2022 printers.py
+-rw-r--r-- 1 root root  28K May 13  2022 xmethods.py
+----
+
+
+https://manpages.ubuntu.com/manpages/impish/man5/gdbinit.5.html
+
+https://sourceware.org/gdb/onlinedocs/gdb/Pretty-Printing-API.html
+
+https://sourceware.org/gdb/onlinedocs/gdb/Writing-a-Pretty_002dPrinter.html
+
+== Stash
+
+=== Debugging with pretty printers in GDB
+
+https://undo.io/resources/gdb-watchpoint/here-quick-way-pretty-print-structures-gdb/ +
+https://undo.io/resources/gdb-watchpoint/debugging-pretty-printers-gdb-part2/ +
+https://undo.io/resources/gdb-watchpoint/debugging-pretty-printers-gdb-part3/ +
