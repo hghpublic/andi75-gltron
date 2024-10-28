@@ -12,7 +12,44 @@
 #include "filesystem/path.h"
 #include "base/util.h"
 
+#if defined(WIN32)
+#include <direct.h>
+#elif defined(__linux__)
+#include <unistd.h>
+#endif
+#include <SDL.h>
+#include <errno.h>
+
+void chdirToBasePath()
+{
+    const char* basePath = SDL_GetBasePath();
+#if defined(WIN32)
+    if (_chdir(basePath))
+#elif defined(__linux__)
+    if (chdir(basePath))
+#endif
+#if defined(WIN32) || defined(__linux__)
+    {
+        switch (errno)
+        {
+        case ENOENT:
+            printf("Unable to locate the directory: %s\n", basePath);
+            break;
+        case EINVAL:
+            printf("Invalid buffer.\n");
+            break;
+        default:
+            printf("Unknown error.\n");
+        }
+    }
+#endif
+}
+
+
 int main(int argc, char *argv[] ) {
+
+    chdirToBasePath();
+
 	// nebu_debug_memory_CheckLeaksOnExit();
 	// nebu_assert_config(NEBU_ASSERT_PRINT_STDERR);
 	initSubsystems(argc, (const char**) argv);
