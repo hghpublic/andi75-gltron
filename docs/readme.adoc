@@ -1,0 +1,10 @@
+= GLtron
+
+
+== dirent
+
+https://github.com/tronkko/dirent
+
+----
+wsl curl -O https://raw.githubusercontent.com/tronkko/dirent/refs/heads/master/include/dirent.h
+----

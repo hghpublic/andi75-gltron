@@ -1,0 +1,107 @@
+= vcpkg
+
+https://vcpkg.link/
+
+== cmake
+
+https://cmake.org/cmake/help/latest/module/FindSDL_sound.html
+
+https://github.com/icculus/SDL_sound
+
+== GLtron
+
+
+dirent                   1.24             Dirent is a C/C++ programming interface that allows programmers to retriev...
+glew                     2.2.0#3          The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-sour...
+libflac                  1.4.3#2          Library for manipulating FLAC files
+libmikmod                3.3.11.1#12      Mikmod is a module player and library supporting many formats, including m...
+libmodplug               0.8.9.0#12       The ModPlug mod file playing library.
+libogg                   1.3.5#1          Ogg is a multimedia container format, and the native file and stream forma...
+libpng                   1.6.43#2         libpng is a library implementing an interface for reading and writing PNG ...
+libvorbis                1.3.7#3          Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, gene...
+lua                      5.4.6            A powerful, fast, lightweight, embeddable scripting language
+pkgconf                  2.2.0            pkgconf is a program which helps to configure compiler and linker flags fo...
+sdl2                     2.30.3#1         Simple DirectMedia Layer is a cross-platform development library designed ...
+zlib                     1.3.1            A compression library
+
+----
+[cmake] The package glew is compatible with built-in CMake targets:
+[cmake] 
+[cmake]     find_package(GLEW REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE GLEW::GLEW)
+[cmake] 
+[cmake] libogg provides CMake targets:
+[cmake] 
+[cmake]   # this is heuristically generated, and may not be correct
+[cmake]   find_package(Ogg CONFIG REQUIRED)
+[cmake]   target_link_libraries(main PRIVATE Ogg::ogg)
+[cmake] 
+[cmake] libogg provides pkg-config modules:
+[cmake] 
+[cmake]   # ogg is a library for manipulating ogg bitstreams
+[cmake]   ogg
+[cmake] 
+[cmake] The package libflac provides CMake targets:
+[cmake] 
+[cmake]     find_package(FLAC CONFIG REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE FLAC::FLAC)
+[cmake]     
+[cmake]     # Or use the C++ API
+[cmake]     find_package(FLAC CONFIG REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE FLAC::FLAC++)
+[cmake] 
+[cmake] libmikmod provides pkg-config modules:
+[cmake] 
+[cmake]   # Library for playing Module Files and for Sound Effects
+[cmake]   libmikmod
+[cmake] 
+[cmake] libmodplug provides pkg-config modules:
+[cmake] 
+[cmake]   # The ModPlug mod file playing library.
+[cmake]   libmodplug
+[cmake] 
+[cmake] The package zlib is compatible with built-in CMake targets:
+[cmake] 
+[cmake]     find_package(ZLIB REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE ZLIB::ZLIB)
+[cmake] 
+[cmake] The package libpng is compatible with built-in CMake targets:
+[cmake] 
+[cmake]     find_package(PNG REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE PNG::PNG)
+[cmake] 
+[cmake] The package libvorbis provides CMake targets:
+[cmake] 
+[cmake]     # Vorbis reference encoder and decoder, low-level API
+[cmake]     find_package(Vorbis CONFIG REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE Vorbis::vorbis)
+[cmake] 
+[cmake]     # Audio stream decoding and basic manipulation, high-level API
+[cmake]     find_package(Vorbis CONFIG REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE Vorbis::vorbisfile)
+[cmake] 
+[cmake]     # Convenience API for setting up an encoding environment
+[cmake]     find_package(Vorbis CONFIG REQUIRED)
+[cmake]     target_link_libraries(main PRIVATE Vorbis::vorbisenc)
+[cmake] 
+[cmake] Use this package via the module FindLua that comes with CMake. To use in your CMakeLists.txt:
+[cmake] 
+[cmake]     find_package(Lua REQUIRED)
+[cmake]     target_include_directories(main PRIVATE ${LUA_INCLUDE_DIR})
+[cmake]     target_link_libraries(main PRIVATE ${LUA_LIBRARIES})
+[cmake] 
+[cmake] sdl2 provides CMake targets:
+[cmake] 
+[cmake]     find_package(SDL2 CONFIG REQUIRED)
+[cmake]     target_link_libraries(main
+[cmake]         PRIVATE
+[cmake]         $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
+[cmake]         $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
+[cmake]     )
+----
+
+== iOS
+
+----
+In principle you can cross-compile to iOS by passing --triplet arm64-ios to vcpkg install, but this is an unsupported community triplet, so you may encounter build failures. Depending on the error, you may also need to set the SDKROOT (which you can find by running xcrun --sdk iphoneos --show-sdk-path) or patch the package itself.
+----

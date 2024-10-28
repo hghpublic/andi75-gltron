@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "gltron",
+    "version": "0.1.0",
+    "dependencies": [
+        "glew",       
+        "libflac",    
+        "libmikmod",  
+        "libmodplug", 
+        "libogg",     
+        "libpng",     
+        "libvorbis",  
+        "lua",        
+        "pkgconf",   
+        "sdl2",    
+        "zlib"       
+    ]
+}

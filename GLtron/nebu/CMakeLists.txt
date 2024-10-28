@@ -1,0 +1,6 @@
+add_subdirectory(audio)
+add_subdirectory(base)
+add_subdirectory(filesystem)
+add_subdirectory(input)
+add_subdirectory(scripting)
+add_subdirectory(video)
