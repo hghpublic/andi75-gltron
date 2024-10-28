@@ -3,3 +3,13 @@ x64
 SDL_sound/VisualC/sdl_sound_static___Win32_Debug
 SDL_sound/VisualC/sdl_sound_static___Win32_Release
 GLtron.vcxproj.user
+
+Win32/
+Debug/
+*.user
+nebu_debug.txt
+
+# cmake
+build/
+_deps/
+temp/
