@@ -30,7 +30,8 @@ static Sound::Source3D *recognizerEngine;
 
 #define TURNLENGTH 250.0f
 
-#pragma GCC diagnostic ignored "-Wunused-function"
+//FIXME: check this
+// #pragma GCC diagnostic ignored "-Wunused-function"
 
 static void output_decoders(void)
 {
@@ -55,7 +56,8 @@ static void output_decoders(void)
     nebu_Log("\n");
 } /* output_decoders */
 
-#pragma GCC diagnostic warn "-Wunused-function"
+// FIXME: check this
+// #pragma GCC diagnostic warn "-Wunused-function"
 
 extern "C" {
 
