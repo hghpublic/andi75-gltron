@@ -23,7 +23,7 @@ FetchContent_Declare(dirent
     # GIT_REPOSITORY https://github.com/tronkko/dirent.git
     # GIT_TAG        39c1f1bc98ef3326237d03006f35d7dd44620e43 # 1.24
     GIT_REPOSITORY https://github.com/hghpublic/tronkko-dirent.git
-    GIT_TAG        db8b2ddab47a7d54637a70b8d64ff805467fa1e4 # 1.24
+    GIT_TAG        e44c9dfc95fd411c357c1dbb86535edb14931cbb # 1.24
     OVERRIDE_FIND_PACKAGE
 )
 FetchContent_MakeAvailable(dirent)
@@ -72,7 +72,7 @@ message(STATUS "xxx: ${xxx}")
 
 
 set(target gltron)
-add_executable(${target})
+add_executable(${target} WIN32)
 target_link_libraries(${target} PRIVATE GLEW::GLEW)
 target_link_libraries(${target} PRIVATE Ogg::ogg)
 target_link_libraries(${target} PRIVATE FLAC::FLAC)
@@ -111,3 +111,20 @@ target_compile_definitions(${target} PRIVATE
 
 add_subdirectory(src)
 add_subdirectory(GLtron)
+
+# copy resources
+set(resources
+    art
+    data
+    levels
+    music
+    scripts
+    sounds
+)
+foreach(resource IN LISTS resources)
+    add_custom_command(TARGET ${target} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_CURRENT_SOURCE_DIR}/Resources/${resource}
+        $<TARGET_FILE_DIR:${target}>/${resource}
+    )
+endforeach()

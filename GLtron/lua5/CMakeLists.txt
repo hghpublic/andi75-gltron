@@ -1,5 +1,5 @@
 set(target lua5)
-add_library(${target})
+add_library(${target} SHARED)
 target_sources(${target} PRIVATE
     
     lapi.c

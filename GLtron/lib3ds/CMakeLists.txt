@@ -1,7 +1,7 @@
 project(lib3ds)
 
 set(target lib3ds)
-add_library(${target})
+add_library(${target} SHARED)
 target_sources(${target} PRIVATE
     atmosphere.c
     atmosphere.h
