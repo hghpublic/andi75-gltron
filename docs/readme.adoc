@@ -8,3 +8,52 @@ https://github.com/tronkko/dirent
 ----
 wsl curl -O https://raw.githubusercontent.com/tronkko/dirent/refs/heads/master/include/dirent.h
 ----
+
+
+== Build
+
+https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-environment-variables#dotnet_cli_ui_language
+
+https://learn.microsoft.com/en-us/dotnet/core/compatibility/sdk/8.0/msbuild-language
+
+https://learn.microsoft.com/en-us/vcpkg/users/config-environment#vslang
+
+https://github.com/microsoft/vcpkg-tool/blob/main/docs/localization.md
+
+https://stackoverflow.com/questions/2286216/how-to-change-msbuild-error-message-language
+
+----
+DOTNET_CLI_UI_LANGUAGE = en dotnet build
+set DOTNET_CLI_UI_LANGUAGE=en
+VSLANG
+VSLANG=1033 for en
+chcp 437
+
+SET var_name=var_value
+SETX var_name var_value
+----
+
+https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490874(v=technet.10)?redirectedfrom=MSDN
+----
+chcp
+Aktive Codepage: 850.  # Multilingual (Latin I)
+----
+
+
+== Lua
+
+https://www.lua.org/manual/5.1/manual.html#7
+
+----
+[build] scripting.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "lua_open" in Funktion "scripting_Init".
+[build] scripting.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "lua_strlen" in Funktion "scripting_GetStringResult".
+[build] scripting.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "luaL_getn" in Funktion "scripting_GetArraySize".
+[build] scripting.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "lua_dostring" in Funktion "run".
+[build] scripting.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "lua_dofile" in Funktion "scripting_RunFile".
+[build] scripting.c.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "lua_setgcthreshold" in Funktion "scripting_RunGC".
+----
+
+
+== vcpkg
+
+https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json

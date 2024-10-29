@@ -1,19 +1,19 @@
 target_sources(${target} PRIVATE
     2d.c
-    benchmark.c
+    # benchmark.c
     camera.c
     console.c
-    extgl.c
+    # extgl.c
     font.c
     geometry.c
-    light.c
+    # light.c
     mesh.c
     mesh_3ds.c
-    mesh_3ds.cpp
+    # mesh_3ds.cpp
     mesh_shadow.c
     pixels.c
     png_texture.c
-    png_texture.m
+    # png_texture.m
     scene.c
     texture2d.c
     video_system.c

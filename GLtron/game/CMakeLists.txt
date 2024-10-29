@@ -2,14 +2,13 @@
 target_sources(${target} PRIVATE
     32bit_warning.c
     camera.c
-    CMakeLists.txt
     computer.c
     computer_utilities.c
     credits.c
     engine.c
     event.c
     game.c
-    game_level.c
+    # game_level.c
     globals.c
     gui.c
     init.c

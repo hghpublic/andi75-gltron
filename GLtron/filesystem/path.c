@@ -10,6 +10,10 @@
 
 #include "base/nebu_debug_memory.h"
 
+#if defined(HAVE_DEFINES_H)
+#include "defines.h"
+#endif
+
 #ifndef PATH_MAX
 // #warning PATH_MAX "is not defined in limits.h!"
 #define PATH_MAX 255

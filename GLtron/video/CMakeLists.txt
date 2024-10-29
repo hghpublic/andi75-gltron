@@ -17,7 +17,7 @@ target_sources(${target} PRIVATE
     skybox.c
     texture.c
     trail.c
-    trails_buffered.c
+    # trails_buffered.c
     trail_geometry.c
     trail_render.c
     video.c

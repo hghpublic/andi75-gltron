@@ -3,7 +3,7 @@ target_sources(${target} PRIVATE
     matrix.c
     nebu_log.c
     # nebu_log.m
-    png_texture.c
+    # png_texture.c
     quat.c
     random.c
     resource.c

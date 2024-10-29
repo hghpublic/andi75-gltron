@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.30)
 
+
+
+message(STATUS "DOTNET_CLI_UI_LANGUAGE: $ENV{DOTNET_CLI_UI_LANGUAGE}")
+
 # https://sourceforge.net/projects/gltron/
 project(gltron
     VERSION 0.70
@@ -57,7 +61,7 @@ find_package(FLAC CONFIG REQUIRED)
 find_package(Ogg CONFIG REQUIRED)
 find_package(PNG REQUIRED)
 find_package(Vorbis CONFIG REQUIRED)
-find_package(Lua REQUIRED)
+# find_package(Lua REQUIRED)
 find_package(SDL2 CONFIG REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(SDL_sound REQUIRED)
@@ -69,7 +73,6 @@ message(STATUS "xxx: ${xxx}")
 
 set(target gltron)
 add_executable(${target})
-target_sources(${target} PRIVATE src/main.c)
 target_link_libraries(${target} PRIVATE GLEW::GLEW)
 target_link_libraries(${target} PRIVATE Ogg::ogg)
 target_link_libraries(${target} PRIVATE FLAC::FLAC)
@@ -79,8 +82,8 @@ target_link_libraries(${target} PRIVATE PNG::PNG)
 target_link_libraries(${target} PRIVATE Vorbis::vorbis)
 # Audio stream decoding and basic manipulation, high-level API
 target_link_libraries(${target} PRIVATE Vorbis::vorbisfile)
-target_include_directories(${target} PRIVATE ${LUA_INCLUDE_DIR})
-target_link_libraries(${target} PRIVATE ${LUA_LIBRARIES})
+# target_include_directories(${target} PRIVATE ${LUA_INCLUDE_DIR})
+# target_link_libraries(${target} PRIVATE ${LUA_LIBRARIES})
 target_link_libraries(${target}
     PRIVATE
     $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
@@ -90,19 +93,21 @@ target_link_libraries(${target} PRIVATE SDL2_sound::SDL2_sound)
 target_link_libraries(${target} PRIVATE dirent)
 target_compile_definitions(${target} PRIVATE
     _CRT_SECURE_NO_WARNINGS
-    GLEW_STATIC
+    # "GLEW_STATIC"
     # PATH_SEPARATOR='\\'
-    PATH_SEPARATOR='/' # linux
-    RC_NAME="gltron.ini"
-    PREF_DIR=""
-    SNAP_DIR=""
+    # "PATH_SEPARATOR='\\'" # linux
+    # "RC_NAME=gltron.ini"
+    # "PREF_DIR='\\'"
+    # "SNAP_DIR='\\'"
     LOCAL_DATA
     WIN32
     _DEBUG
     _WINDOWS
+    HAVE_DEFINES_H
 )
 # target_link_libraries(${target} PRIVATE libmikmod)
 # target_link_libraries(${target} PRIVATE libmodplug)
 # target_link_libraries(${target} PRIVATE ogg)
 
+add_subdirectory(src)
 add_subdirectory(GLtron)

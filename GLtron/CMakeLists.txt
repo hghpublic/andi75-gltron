@@ -10,8 +10,13 @@ add_subdirectory(configuration)
 add_subdirectory(filesystem)
 add_subdirectory(game)
 add_subdirectory(input)
+add_subdirectory(lib3ds)
+add_subdirectory(lua5)
 add_subdirectory(nebu)
 add_subdirectory(video)
 
+target_link_libraries(${target} PRIVATE lib3ds)
+target_link_libraries(${target} PRIVATE lua5)
 
-# target_sources(${target} PRIVATE gltron.c)
+
+target_sources(${target} PRIVATE gltron.c)
