@@ -21,8 +21,10 @@
 #endif
 
 #include "SDL_opengl.h"
-#ifndef WIN32
+#if defined(__APPLE__)
 #include "OpenGL/glu.h"
+#elif defined(__linux__)
+#include "GL/glu.h"
 #endif
 #endif
 
