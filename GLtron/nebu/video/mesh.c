@@ -51,8 +51,9 @@ void nebu_Mesh_VB_Enable(nebu_Mesh_VB *pVB)
 #ifndef OPENGL_ES // OK, GL_SECONDARY_COLOR_ARRAY
 	if(pVB->vertexformat & NEBU_MESH_COLOR1)
 	{
-		glEnableClientState(GL_SECONDARY_COLOR_ARRAY);
-		glSecondaryColorPointer(4, GL_UNSIGNED_BYTE, 0, pVB->pColor1);
+        //FIXME: GL_SECONDARY_COLOR_ARRAY is not supported on linux?
+		// glEnableClientState(GL_SECONDARY_COLOR_ARRAY);
+		// glSecondaryColorPointer(4, GL_UNSIGNED_BYTE, 0, pVB->pColor1);
 	}
 #endif
 }
@@ -65,7 +66,8 @@ void nebu_Mesh_VB_Disable(nebu_Mesh_VB *pVB)
 	glDisableClientState(GL_NORMAL_ARRAY);
 	glDisableClientState(GL_COLOR_ARRAY);
 #ifndef OPENGL_ES // OK, GL_SECONDARY_COLOR_ARRAY
-	glDisableClientState(GL_SECONDARY_COLOR_ARRAY);
+    //FIXME: GL_SECONDARY_COLOR_ARRAY is not supported on linux?
+	// glDisableClientState(GL_SECONDARY_COLOR_ARRAY);
 #endif
 	for(i = 0; i < NEBU_MESH_TEXCOORD_MAXCOUNT; i++)
 	{
