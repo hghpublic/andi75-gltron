@@ -2,8 +2,9 @@
 
 #include <stdio.h>
 #include <stdarg.h>
+#if defined(WIN32)
 #include <windows.h>
-
+#endif
 FILE* nebu_debug = NULL;
 
 void nebu_Log(const char* format, ...)
@@ -13,8 +14,9 @@ void nebu_Log(const char* format, ...)
 	va_start(ap, format);
 	vsprintf(buf, format, ap);
 	va_end(ap);
+#if defined(WIN32)
 	OutputDebugStringA(buf);
-
+#endif
 	if (!nebu_debug)
 	{
 		nebu_debug = fopen("nebu_debug.txt", "w");
