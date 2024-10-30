@@ -26,6 +26,10 @@
 #include "lua.h"
 #include "lualib.h"
 
+#if defined(HAVE_DEFINES_H)
+#include "defines.h"
+#endif
+
 // some functions defined elsewhere: graphics_hud.c
 int c_drawRectangle(lua_State *l);
 int c_drawCircle(lua_State *l);

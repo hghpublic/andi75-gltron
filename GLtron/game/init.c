@@ -26,6 +26,10 @@
 
 #include "base/nebu_assert.h"
 
+#if defined(HAVE_DEFINES_H)
+#include "defines.h"
+#endif
+
 void initFilesystem(int argc, const char *argv[]);
 void initGUIs(void);
 

@@ -7,6 +7,10 @@
 
 #include "base/nebu_debug_memory.h"
 
+#if defined(HAVE_DEFINES_H)
+#include "defines.h"
+#endif
+
 int nebu_FS_Test(const char *path) {
   FILE *f = fopen(path, "r");
   if(f) {

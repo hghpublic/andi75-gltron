@@ -15,6 +15,10 @@
 #define BUFSIZE 100
 #define MAX_VAR_NAME_LEN 64
 
+#if defined(HAVE_DEFINES_H)
+#include "defines.h"
+#endif
+
 void checkSettings(void) {
   /* sanity check: speed */
   if(getSettingf("speed") <= 0) {
