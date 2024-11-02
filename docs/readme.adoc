@@ -1,0 +1,19 @@
+= GLtron
+
+This branch is based on branch `gltron/dev/0`.
+
+Most external libraries have been removed.
+
+External libraries are now managed by `vcpkg` or `FetchContent`.
+
+The Visual Studio projects have been removed.
+
+cmake support was added.
+
+Devcontainer support was added.
+
+Tested on Windows and Linux.
+
+== Microsoft Windows
+
+In case sound is not working, try to set the environment variable `SDL_AUDIODRIVER` to `directsound`.

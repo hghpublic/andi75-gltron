@@ -1,0 +1,16 @@
+= SDL_sound
+
+https://www.icculus.org/SDL_sound/
+
+https://github.com/icculus/SDL_sound
+
+https://osdl.sourceforge.net/main/documentation/rendering/SDL-audio.html
+
+https://stackoverflow.com/questions/22960325/no-audio-with-sdl-c
+
+Try adding SDL_AUDIODRIVER=waveout (or alternatively, SDL_AUDIODRIVER=dsound) to your environment (under Windows).
+
+Or, if you're on SDL2 on Windows, you'll need SDL_AUDIODRIVER=directsound or SDL_AUDIODRIVER=winmm – 
+
+It worked fine in Windows 10, after adding to my system an environment Variable named SDL_AUDIODRIVER=directsound .
+
