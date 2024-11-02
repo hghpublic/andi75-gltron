@@ -1,5 +1,8 @@
 = GLtron
 
+This branch is based on the `master` branch.
+
+It provides projects working on Microsoft Windows using Visual Studio 17 2022.
 
 == dirent
 
