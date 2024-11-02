@@ -1,0 +1,35 @@
+= debug
+
+== Windows
+
+https://stackoverflow.com/questions/7808769/how-to-debug-a-crash-before-main
+
+https://stackoverflow.com/questions/21149058/debug-error-before-main-using-gdb
+
+https://stackoverflow.com/questions/45875802/what-to-do-when-your-program-crash-before-entering-main
+
+https://stackoverflow.com/questions/2518415/is-there-any-way-a-c-c-program-can-crash-before-main
+
+https://stackoverflow.com/questions/18090577/crash-before-main
+
+https://stackoverflow.com/questions/10483544/stopping-at-the-first-machine-code-instruction-in-gdb
+
+https://stackoverflow.com/questions/40200024/simple-c-program-crash-before-main-is-called
+
+https://stackoverflow.com/questions/7808769/how-to-debug-a-crash-before-main
+
+https://stackoverflow.com/questions/20797668/how-can-i-debug-diagnose-program-crash-during-initialisation
+
+https://stackoverflow.com/questions/77005/how-to-automatically-generate-a-stacktrace-when-my-program-crashes
+
+
+https://dependencywalker.com/
+
+https://www.dependencywalker.com/help/html/hidr_command_line_help.htm
+
+----
+dumpbin /dependents some.dll
+----
+
+https://github.com/lucasg/Dependencies
+

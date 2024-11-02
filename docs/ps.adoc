@@ -1,0 +1,25 @@
+= Powershell
+
+remove directory::
+----
+ rm -r -fo .\build\
+----
+
+
+----
+New-Item -Path "C:\" -Name "Temp" -ItemType Directory
+New-Item -Path .\Temp -ItemType Directory
+New-Item "Temp" -ItemType Directory
+----
+
+msbuild::
+----
+& $msbuild gltron.sln /target:Clean /target:Build
+cmd.exe /c 'C:\Windows\Microsoft.NET\Framework\v3.5\msbuild.exe' /target:Clean /target:Build 'C:\some\project\or\other\src\Solution.sln'
+
+$msbuild = C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe
+
+cmd.exe /c $msbuild /target:Clean /target:Build gltron.sln
+cmd.exe /c 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe' /target:Clean /target:Build gltron.sln
+
+----

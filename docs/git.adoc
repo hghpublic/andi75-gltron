@@ -1,0 +1,139 @@
+= git
+
+----
+git cherry-pick -X theirs <commit-hash-you-want-to-force-cherry-pick-from>
+----
+My usual workflow is as follows:
+
+Assuming I'm on the master and I have just made a commit.
+
+I grab the commit hash of that commit.
+Then checkout on to the branch I want to have such commit.
+Then run the command above, e.g.
+
+----
+git cherry-pick -X theirs 5cf3412
+----
+
+
+List only the files that have been modified in a commit::
++
+----
+git diff-tree --no-commit-id --name-only <COMMIT-HASH> -r
+git diff-tree --no-commit-id --name-status <COMMIT-HASH> -r
+git show --pretty="" --name-only <COMMIT-HASH> 
+git diff-tree --no-commit-id --name-only 1c5a5c535c567ac74589f88072aefc099324877e -r
+git diff-tree --no-commit-id --name-status 1c5a5c535c567ac74589f88072aefc099324877e -r
+git diff-tree --name-status 1c5a5c535c567ac74589f88072aefc099324877e -r
+git show --pretty="" --name-only 1c5a5c535c567ac74589f88072aefc099324877e 
+----
+
+If you want to get the list of changed files:
+----
+git diff-tree --no-commit-id --name-only -r <commit-ish>
+----
+If you want to get the list of all files in a commit, you can use
+----
+git ls-tree --name-only -r <commit-ish>
+----
+
+----
+git show --stat --oneline HEAD
+git show --stat --oneline 1c5a5c535c567ac74589f88072aefc099324877e
+git show --stat --oneline HEAD^^..HEAD
+
+git show --name-only --oneline HEAD
+git show --name-only --oneline 1c5a5c535c567ac74589f88072aefc099324877e
+git show --name-only --oneline HEAD^^..HEAD
+----
+
+Nice. And unlike the accepted answer, git show also works for reviewing stashed changes: e.g. 
+----
+git show --stat --oneline stash@{1}
+----
+
+----
+git show 1c5a5c535c567ac74589f88072aefc099324877e --name-only
+----
+
+
+Recently I needed to list all changed files between two commits. So I used this (also *nix specific) command::
++
+----
+git show --pretty="format:" --name-only START_COMMIT..END_COMMIT | sort | uniq
+
+git diff --name-only START_COMMIT..END_COMMIT
+
+git diff --name-status START_COMMIT..END_COMMIT
+
+----
+
+----
+git show --stat (hash)
+
+git show --stat --name-only (hash)
+
+
+----
+
+
+
+
+
+Using the standard git diff command (also good for scripting)::
+
+----
+git diff --name-only <sha>^ <sha>
+----
+If you also want the status of the changed files:
+----
+git diff --name-status <sha>^ <sha>
+----
+This works well with merge commits.
+
+
+To list the files changed on a particular commit::
+----
+git show --pretty=%gd --stat <commit_id>
+----
+To list the files changed on recent commit::
+----
+git show --pretty=%gd --stat
+----
+
+Use a simple one-line command, if you just want the list of files changed in the last commit::
+----
+git diff HEAD~1 --name-only
+----
+
+----
+$ git whatchanged 1c5a5c535c567ac74589f88072aefc099324877e
+----
+
+
+I use this to get the list of modified files between two changesets::
+----
+git diff --name-status <SHA1> <SHA2> | cut -f2
+----
+
+I use this to get the list of changed files in a merge commit::
+----
+git log -m -1 --name-only --pretty="format:"
+configs/anotherconfig.xml
+configs/configsInRepo.xml
+----
+or
+----
+git log -m -1 --name-status --pretty="format:"
+----
+
+List all files in a commit tree:
+----
+git ls-tree --name-only --full-tree a21e610
+----
+
+https://www.geeksforgeeks.org/how-to-list-all-files-in-a-commit-in-git/
+
+
+https://www.educative.io/answers/how-to-list-all-files-in-a-commit-in-git
+

@@ -1,0 +1,21 @@
+= cmake
+
+vcpkg in CMake projects +
+https://learn.microsoft.com/en-us/vcpkg/users/buildsystems/cmake-integration
+
+----
+cmake -G "Visual Studio 17 2022" -A x64
+cmake -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE=$Env:VCPKG_ROOT\scripts\buildsystems\vcpkg.cmake ..
+cmake -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE=D:\hgh\bin\vcpkg\scripts\buildsystems\vcpkg.cmake ..
+cmake -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE=%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake
+
+cat $Env:VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake
+----
+
+----
+Write-Output "VCPKG_ROOT=$Env:VCPKG_ROOT"
+echo $Env:VCPKG_ROOT
+D:\hgh\bin\vcpkg
+----
+
+https://cmake.org/cmake/help/latest/manual/cmake-generator-expressions.7.html#genex:TARGET_RUNTIME_DLLS

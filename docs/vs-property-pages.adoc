@@ -1,0 +1,15 @@
+= Visual Studio Command Line Arguments
+
+== Visual Studio 2017
+
+=== GLtron Property Pages
+
+Configuration Properties -> C/C{pp} -> Command Line::
+----
+/JMC /ifcOutput "GLtron\x64\Debug\" /GS /W3 /wd"4996" /Zc:wchar_t /I"GLtron\include" /I"GLtron\nebu\include" /I"SDL2\include" /I"GLtron\lua5\include" /I"GLtron\libpng" /I"GLtron\zlib" /I"GLtron\glew\include" /I"SDL_sound" /ZI /Gm- /Od /sdl /Fd"GLtron\x64\Debug\vc143.pdb" /Zc:inline /fp:precise /D "_CRT_SECURE_NO_WARNINGS" /D "GLEW_STATIC" /D "PATH_SEPARATOR='\\'" /D "RC_NAME=\"gltron.ini\"" /D "PREF_DIR=\"\"" /D "SNAP_DIR=\"\"" /D "LOCAL_DATA" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /errorReport:prompt /WX- /Zc:forScope /RTC1 /Gd /MDd /FC /Fa"GLtron\x64\Debug\" /EHsc /nologo /Fo"GLtron\x64\Debug\" /Fp"GLtron\x64\Debug\GLtron.pch" /diagnostics:column 
+----
+
+Configuration Properties -> Linker -> Command Line::
+----
+/OUT:"D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\GLtron.exe" /MANIFEST /NXCOMPAT /PDB:"D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\GLtron.pdb" /DYNAMICBASE "nebu.lib" "SDL2main.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" "odbc32.lib" "odbccp32.lib" /DEBUG /MACHINE:X64 /NODEFAULTLIB:"libcmtd" /INCREMENTAL /PGD:"D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\GLtron.pgd" /SUBSYSTEM:WINDOWS /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /ManifestFile:"GLtron\x64\Debug\GLtron.exe.intermediate.manifest" /LTCGOUT:"GLtron\x64\Debug\GLtron.iobj" /ERRORREPORT:PROMPT /ILK:"GLtron\x64\Debug\GLtron.ilk" /NOLOGO /LIBPATH:"x64\Debug" /LIBPATH:"Debug" /LIBPATH:"SDL\VisualC\SDLmain\x64\Debug" /LIBPATH:"SDL\VisualC\SDLmain\Debug" /TLBID:1 
+----
