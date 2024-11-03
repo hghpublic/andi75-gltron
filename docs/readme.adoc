@@ -60,3 +60,19 @@ https://www.lua.org/manual/5.1/manual.html#7
 == vcpkg
 
 https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json
+
+== cmake
+
+https://discourse.libsdl.org/t/no-sound-using-sdl-audio/23839
+
+https://stackoverflow.com/questions/22960325/no-audio-with-sdl-c
+
+https://discourse.libsdl.org/t/simple-audio-program-is-not-making-sound/47658
+
+https://github.com/Jubatian/cuzebox/issues/3
+
+SDL2 on Windows::
+----
+SDL_AUDIODRIVER=directsound
+SDL_AUDIODRIVER=winmm
+----
