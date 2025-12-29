@@ -27,7 +27,7 @@
 #include <string.h>
 #ifndef macintosh
 #ifndef WIN32
-#    include <unistd.h>
+#include <unistd.h>
 #endif
 #endif
 
@@ -114,7 +114,7 @@ void goto_installpath(const char *argv0)
 #endif
     
     char buf[1024];
-    getwd(buf);
+    getcwd(buf, sizeof(buf));
     
     nebu_Log("current directory: %s\n", buf);
 #endif
