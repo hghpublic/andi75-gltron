@@ -1,0 +1,7 @@
+= play_song_revenge_of_cats
+
+[source, bash]
+----
+❯ ./build/play_song_revenge_of_cats
+Playing music from: /workspaces/andi75-gltron/Resources/music/song_revenge_of_cats.mp3
+----

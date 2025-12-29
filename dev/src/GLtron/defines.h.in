@@ -1,0 +1,8 @@
+// defines.h
+
+#pragma once
+
+#cmakedefine PATH_SEPARATOR '@PATH_SEPARATOR@'
+#cmakedefine PREF_DIR "@PREF_DIR@"
+#cmakedefine RC_NAME "@RC_NAME@"
+#cmakedefine SNAP_DIR "@SNAP_DIR@"

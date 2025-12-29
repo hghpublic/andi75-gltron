@@ -1,0 +1,47 @@
+= lua5
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+== lua5
+
+https://www.lua.org/
+
+=== Lua Lua 5.3 Reference Manual
+
+https://www.lua.org/manual/5.3/
+
+
+=== Incompatibilities with the Previous Version
+
+. https://www.lua.org/manual/5.1/manual.html#7
+. https://www.lua.org/manual/5.2/manual.html#8
+. https://www.lua.org/manual/5.3/manual.html#8
+
+== Stash
+
+=== Impacts of migrating to Lua 5.3#2808
+
+https://github.com/nodemcu/nodemcu-firmware/issues/2808
+
+=== Lua/Porting notes
+
+https://wiki.gentoo.org/wiki/Lua/Porting_notes
+
+=== lua-users.org
+
+http://lua-users.org/
+
+=== Compatibility With Lua Five
+
+http://lua-users.org/wiki/CompatibilityWithLuaFive
+
+=== Migrating To Five One
+
+http://lua-users.org/wiki/MigratingToFiveOne
+
+=== Lua Version Compatibility
+
+http://lua-users.org/wiki/LuaVersionCompatibility

@@ -1,0 +1,1317 @@
+Rebuild started at 03:41...
+1>------ Rebuild All started: Project: SDL2main, Configuration: Debug x64 ------
+2>------ Rebuild All started: Project: SDL2, Configuration: Debug x64 ------
+3>------ Rebuild All started: Project: libvorbis_static, Configuration: Debug x64 ------
+4>------ Rebuild All started: Project: libFLAC_static, Configuration: Debug x64 ------
+5>------ Rebuild All started: Project: libmikmod, Configuration: Debug x64 ------
+6>------ Rebuild All started: Project: libmodplug, Configuration: Debug x64 ------
+7>------ Rebuild All started: Project: libogg_static, Configuration: Debug x64 ------
+8>------ Rebuild All started: Project: zlib, Configuration: Debug x64 ------
+1>cl : command line  warning D9002: ignoring unknown option '/arch:SSE'
+1>SDL_windows_main.c
+3>cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+4>win_utf8_io.c
+8>adler32.c
+7>cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+5>cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+2>cl : command line  warning D9002: ignoring unknown option '/arch:SSE'
+2>e_atan2.c
+3>window.c
+6>fastmix.cpp
+8>compress.c
+2>e_log.c
+7>framing.c
+7>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libogg\src\framing.c(733,20): warning C4456: declaration of 'page' hides previous local declaration
+3>vorbisenc.c
+8>crc32.c
+7>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libogg\src\framing.c(734,10): warning C4456: declaration of 'bytes' hides previous local declaration
+7>bitwise.c
+7>Generating Code...
+2>e_pow.c
+5>virtch_common.c
+8>deflate.c
+2>e_rem_pio2.c
+2>e_sqrt.c
+8>gzclose.c
+2>k_cos.c
+2>k_rem_pio2.c
+8>gzlib.c
+4>bitmath.c
+2>k_sin.c
+8>gzread.c
+8>gzwrite.c
+2>k_tan.c
+2>s_atan.c
+2>s_copysign.c
+2>s_cos.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(27,5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(27,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(27,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(27,34): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(27,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(33,5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+7>libogg_static.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\libogg_static.lib
+1>SDLmain.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\SDL2main.lib
+7>Done building project "libogg_static.vcxproj".
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(33,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(33,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(33,34): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(33,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(39,5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(39,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(39,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(39,34): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(39,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(45,5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(45,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(45,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(45,34): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(45,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(51,5): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(51,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(51,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+2>s_fabs.c
+9>------ Rebuild All started: Project: glew, Configuration: Debug x64 ------
+8>infback.c
+5>virtch2.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(51,34): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\modes\psych_44.h(51,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+1>Done building project "SDLmain.vcxproj".
+2>s_floor.c
+10>------ Rebuild All started: Project: libpng, Configuration: Debug x64 ------
+8>inffast.c
+2>s_scalbn.c
+2>s_sin.c
+8>inflate.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(248,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+2>s_tan.c
+2>SDL.c
+6>load_669.cpp
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(249,60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(251,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(231,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(272,56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(273,56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(274,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(276,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(277,52): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(278,52): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(284,56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(285,56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(286,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(289,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(291,52): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(292,52): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(258,13): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(259,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(271,39): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(282,49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(312,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(345,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(346,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(347,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(348,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(349,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(351,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(354,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(338,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(377,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(362,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(388,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(383,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(403,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(410,50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(417,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(398,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(429,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(430,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(447,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(529,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(593,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(622,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(659,24): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(660,25): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(661,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(717,36): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(834,25): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(840,53): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(842,24): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(877,8): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(913,12): warning C4305: '+=': truncation from 'double' to 'float'
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(914,26): warning C4305: '=': truncation from 'double' to 'float'
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(967,50): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(969,36): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(979,11): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(990,18): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(1074,63): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(1090,46): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisenc.c(1093,33): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+8>inftrees.c
+3>synthesis.c
+8>trees.c
+3>smallft.c
+8>uncompr.c
+9>glew.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\smallft.c(99,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\smallft.c(100,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\smallft.c(283,7): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\smallft.c(284,7): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\smallft.c(853,7): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\smallft.c(854,7): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>sharedbook.c
+8>zutil.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(584,3): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+4>bitreader.c
+10>png.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(584,21): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(584,39): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(584,57): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(585,3): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(585,21): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+8>Generating Code...
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(53,8): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(54,8): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(65,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+2>SDL_assert.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(585,39): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(585,57): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(614,3): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(614,21): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(614,39): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(614,57): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(615,3): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(615,21): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(615,39): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(161,13): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(220,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(240,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(219,35): warning C4244: 'initializing': conversion from 'long' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(239,35): warning C4244: 'initializing': conversion from 'long' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\sharedbook.c(353,28): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+3>res0.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(615,57): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(620,3): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(620,21): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(620,39): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(620,57): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\res0.c(443,12): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\res0.c(423,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>registry.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(621,3): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(621,21): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(621,39): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(621,57): warning C4244: '=': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(647,9): warning C4244: 'initializing': conversion from 'SLONGLONG' to 'int', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(666,9): warning C4244: 'initializing': conversion from 'SLONGLONG' to 'int', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(1066,44): warning C4244: 'function': conversion from 'SLONGLONG' to 'ULONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(1069,44): warning C4244: 'function': conversion from 'SLONGLONG' to 'ULONG', possible loss of data
+6>load_abc.cpp
+3>psy.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(1072,44): warning C4244: 'function': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch2.c(1124,10): warning C4018: '<': signed/unsigned mismatch
+5>virtch.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(137,68): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(139,43): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(173,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(174,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(175,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(239,13): warning C4456: declaration of 'bin' hides previous local declaration
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(737,9): warning C4244: 'initializing': conversion from 'SLONGLONG' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(254,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(259,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(192,49): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(193,55): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(217,49): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(218,55): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(756,9): warning C4244: 'initializing': conversion from 'SLONGLONG' to 'int', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(817,3): warning C4244: '=': conversion from 'SLONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(817,19): warning C4244: '=': conversion from 'SLONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(817,35): warning C4244: '=': conversion from 'SLONG' to 'SWORD', possible loss of data
+2>SDL_atomic.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(239,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(274,61): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(276,54): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(277,53): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(290,36): warning C4305: '=': truncation from 'double' to 'float'
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(291,36): warning C4305: '=': truncation from 'double' to 'float'
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(301,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(325,62): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(327,54): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(347,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(296,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(312,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(336,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(402,46): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(404,14): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(571,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(739,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(801,16): warning C4305: '=': truncation from 'double' to 'float'
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(807,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(814,25): warning C4305: '=': truncation from 'double' to 'float'
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(817,51): warning C4244: '=': conversion from 'SLONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(822,3): warning C4244: '=': conversion from 'SLONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(1087,47): warning C4244: 'function': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(1090,47): warning C4244: 'function': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(1093,47): warning C4244: 'function': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(1097,47): warning C4244: 'function': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(1107,47): warning C4244: 'function': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(1111,47): warning C4244: 'function': conversion from 'SLONGLONG' to 'SLONG', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\virtch.c(1137,10): warning C4018: '<': signed/unsigned mismatch
+5>sloader.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(818,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(922,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(953,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(955,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(976,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(978,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(992,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(990,20): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(1050,41): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(1128,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+10>pngerror.c
+2>Generating Code...
+4>bitwriter.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(1157,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(1176,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(1178,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(1021,36): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\psy.c(1022,37): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+3>mdct.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(58,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(66,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(67,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(68,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(69,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(72,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(73,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(79,31): warning C4456: declaration of 'i' hides previous local declaration
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mdct.c(440,16): warning C4456: declaration of 'iX' hides previous local declaration
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\sloader.c(147,14): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+3>mapping0.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mapping0.c(266,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mapping0.c(312,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mapping0.c(329,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\mapping0.c(387,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>lsp.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lsp.c(252,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lsp.c(276,7): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lsp.c(259,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lsp.c(350,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lsp.c(397,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lsp.c(449,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lsp.c(452,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>lpc.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\lpc.c(130,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+3>lookup.c
+3>info.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\sloader.c(83,21): warning C4244: 'initializing': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\sloader.c(215,20): warning C4244: '+=': conversion from 'SLONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\sloader.c(221,14): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+5>npertab.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(273,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+2>Compiling...
+8>zlib.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\zlib.lib
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(47,12): warning C4244: '=': conversion from 'long' to 'char', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(1865,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(1875,15): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(2227,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(2228,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(2232,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(2252,12): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(2258,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(2292,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+11>------ Rebuild All started: Project: lua5, Configuration: Debug x64 ------
+2>SDL_audio.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(60,37): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(62,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(69,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(70,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(71,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(90,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(93,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(94,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(110,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(112,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(113,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\info.c(467,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+3>floor1.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(3383,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(3448,17): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(4024,23): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_abc.cpp(4182,23): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+6>load_amf.cpp
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor1.c(210,56): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor1.c(275,23): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor1.c(497,14): warning C4457: declaration of 'a' hides function parameter
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor1.c(499,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor1.c(500,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor1.c(714,11): warning C4456: declaration of 'y0' hides previous local declaration
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor1.c(715,11): warning C4456: declaration of 'y1' hides previous local declaration
+3>floor0.c
+9>glew.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\glew.lib
+12>------ Rebuild All started: Project: lib3ds, Configuration: Debug x64 ------
+2>SDL_audiocvt.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor0.c(126,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+5>mwav.c
+2>SDL_audiodev.c
+2>SDL_audiotypecvt.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\floor0.c(136,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>envelope.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\envelope.c(48,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\envelope.c(65,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\envelope.c(68,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\envelope.c(145,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\envelope.c(127,46): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+3>codebook.c
+4>cpu.c
+2>SDL_blendfillrect.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\codebook.c(183,31): warning C4244: '=': conversion from 'long' to 'char', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\codebook.c(192,29): warning C4244: '=': conversion from 'long' to 'char', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\codebook.c(214,28): warning C4244: '=': conversion from 'long' to 'char', possible loss of data
+3>block.c
+10>pngget.c
+11>lapi.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\block.c(256,9): warning C4456: declaration of 'i' hides previous local declaration
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\block.c(864,34): warning C4244: 'initializing': conversion from 'ogg_int64_t' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\block.c(902,33): warning C4244: 'initializing': conversion from 'ogg_int64_t' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\block.c(1029,9): warning C4456: declaration of 'i' hides previous local declaration
+3>bitrate.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lapi.c(155,9): warning C4068: unknown pragma 'GCC'
+4>crc.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lapi.c(158,18): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lapi.c(834,40): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+11>lcode.c
+4>fixed.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mwav.c(189,28): warning C4244: '=': conversion from 'ULONG' to 'UWORD', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\bitrate.c(42,22): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\bitrate.c(43,22): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\bitrate.c(44,22): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\bitrate.c(51,43): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+6>load_ams.cpp
+2>SDL_blendline.c
+11>ldebug.c
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\bitrate.c(135,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\bitrate.c(83,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+3>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\bitrate.c(88,39): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+3>Generating Code...
+5>munitrk.c
+12>atmosphere.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ldebug.c(111,9): warning C4068: unknown pragma 'GCC'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ldebug.c(113,19): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ldebug.c(522,46): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+11>ldo.c
+12>background.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ldo.c(95,9): warning C4068: unknown pragma 'GCC'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ldo.c(100,24): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ldo.c(171,23): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ldo.c(190,23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+11>ldump.c
+2>SDL_blendpoint.c
+11>lfunc.c
+11>lgc.c
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\background.c(209,15): warning C4267: '=': conversion from 'size_t' to 'Lib3dsDword', possible loss of data
+12>camera.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lgc.c(229,9): warning C4068: unknown pragma 'GCC'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lgc.c(236,14): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lgc.c(232,20): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+2>SDL_blit.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lgc.c(360,7): warning C4267: 'function': conversion from 'size_t' to 'lu_mem', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lgc.c(404,39): warning C4267: '=': conversion from 'size_t' to 'lu_mem', possible loss of data
+11>lauxlib.c
+12>chunk.c
+3>Compiling...
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\munitrk.c(267,20): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>mplayer.c
+12>ease.c
+3>analysis.c
+11>lbaselib.c
+2>SDL_blit_0.c
+10>pngmem.c
+3>Generating Code...
+12>file.c
+11>ldblib.c
+11>liolib.c
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\file.c(86,9): warning C4068: unknown pragma 'GCC'
+2>SDL_blit_1.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lib\liolib.c(669,23): warning C4244: 'function': conversion from 'time_t' to 'lua_Number', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lib\liolib.c(686,25): warning C4244: 'function': conversion from 'time_t' to 'lua_Number', possible loss of data
+11>lmathlib.c
+4>fixed_intrin_sse2.c
+6>load_dbm.cpp
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\file.c(92,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\file.c(100,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\file.c(920,41): warning C4267: '=': conversion from 'size_t' to 'Lib3dsDword', possible loss of data
+12>float.c
+2>SDL_blit_A.c
+11>loadlib.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(235,25): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(251,12): warning C4018: '<': signed/unsigned mismatch
+12>io.c
+12>light.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(254,29): warning C4244: 'function': conversion from 'ULONG' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(258,12): warning C4018: '<': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(289,43): warning C4244: '=': conversion from 'unsigned long' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(306,26): warning C4244: 'function': conversion from 'ULONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(323,42): warning C4244: 'return': conversion from 'unsigned long' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(404,8): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(405,8): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(789,34): warning C4018: '>': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(875,20): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(1117,8): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(1148,12): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+2>SDL_blit_auto.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(1950,19): warning C4244: '=': conversion from 'SLONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2012,35): warning C4018: '>': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2099,33): warning C4018: '>': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2347,24): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2402,29): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2404,29): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2404,37): warning C4244: 'function': conversion from 'ULONG' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2411,30): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2414,31): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+12>material.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2417,31): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2448,24): warning C4244: '-=': conversion from 'SLONG' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2467,23): warning C4244: '-=': conversion from 'SLONG' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2495,16): warning C4244: '+=': conversion from 'long' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2499,24): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2504,32): warning C4244: 'function': conversion from 'SWORD' to 'SBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2636,39): warning C4244: '=': conversion from 'SLONG' to 'SWORD', possible loss of data
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\material.c(717,31): warning C4267: '=': conversion from 'size_t' to 'Lib3dsDword', possible loss of data
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\material.c(851,36): warning C4267: '=': conversion from 'size_t' to 'Lib3dsDword', possible loss of data
+3>libvorbis_static.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\libvorbis_static.lib
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2646,32): warning C4244: '+=': conversion from 'SLONG' to 'SWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(2816,38): warning C4244: '=': conversion from 'SWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(3037,20): warning C4244: '=': conversion from 'SWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(3283,11): warning C4018: '>=': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mplayer.c(3283,24): warning C4018: '<=': signed/unsigned mismatch
+5>mlutil.c
+12>matrix.c
+3>Done building project "libvorbis_static.vcxproj".
+2>SDL_blit_copy.c
+13>------ Rebuild All started: Project: libvorbisfile, Configuration: Debug x64 ------
+12>mesh.c
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\mesh.c(763,55): warning C4267: '=': conversion from 'size_t' to 'Lib3dsDword', possible loss of data
+12>node.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mlutil.c(97,66): warning C4018: '<': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mlutil.c(104,22): warning C4018: '>': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mlutil.c(108,23): warning C4018: '<': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mlutil.c(131,18): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mlutil.c(303,15): warning C4244: 'function': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mlutil.c(307,16): warning C4244: 'function': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mlutil.c(326,16): warning C4244: 'function': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>mlreg.c
+10>pngpread.c
+6>load_dmf.cpp
+2>SDL_blit_N.c
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\node.c(713,40): warning C4267: '=': conversion from 'size_t' to 'Lib3dsDword', possible loss of data
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\node.c(752,21): warning C4267: '=': conversion from 'size_t' to 'Lib3dsDword', possible loss of data
+4>fixed_intrin_ssse3.c
+12>quat.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lib\loadlib.c(100,15): warning C4133: 'function': incompatible types - from 'char [128]' to 'LPWSTR'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lib\loadlib.c(110,28): warning C4133: 'function': incompatible types - from 'const char *' to 'LPCWSTR'
+11>lstrlib.c
+12>shadow.c
+2>SDL_blit_slow.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lib\lstrlib.c(333,26): warning C4244: '=': conversion from '__int64' to 'sint32', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lib\lstrlib.c(450,9): warning C4068: unknown pragma 'GCC'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lib\lstrlib.c(531,23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+11>ltablib.c
+12>tcb.c
+12>tracks.c
+5>mloader.c
+13>cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+11>llex.c
+12>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lib3ds\tracks.c(209,9): warning C4068: unknown pragma 'GCC'
+13>vorbisfile.c
+11>lmem.c
+2>SDL_bmp.c
+12>vector.c
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(72,30): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(259,30): warning C4244: 'function': conversion from 'ogg_int64_t' to 'long', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(273,15): warning C4244: '=': conversion from 'ogg_int64_t' to 'int', possible loss of data
+11>lobject.c
+12>viewport.c
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(545,21): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(566,19): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(569,19): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(579,19): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(641,19): warning C4244: 'return': conversion from 'ogg_int64_t' to 'int', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(874,18): warning C4244: 'function': conversion from 'ogg_int64_t' to 'long', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(1118,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(1119,11): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(1123,13): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(1151,51): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(1764,33): warning C4244: '=': conversion from 'ogg_int64_t' to 'long', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(1801,33): warning C4244: 'initializing': conversion from 'double' to 'ogg_int64_t', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(1831,33): warning C4244: 'initializing': conversion from 'double' to 'ogg_int64_t', possible loss of data
+13>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libvorbis\lib\vorbisfile.c(2167,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+2>SDL_clipboard.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lobject.c(148,9): warning C4068: unknown pragma 'GCC'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lobject.c(150,40): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lobject.c(176,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lobject.c(185,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+11>lopcodes.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_dmf.cpp(605,19): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+12>Generating Code...
+2>SDL_clipboardevents.c
+11>lparser.c
+10>pngread.c
+6>load_dsm.cpp
+11>Generating Code...
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mloader.c(75,32): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+2>SDL_cpuinfo.c
+4>float.c
+5>mdriver.c
+13>libvorbisfile_static.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\libvorbisfile_static.lib
+11>Compiling...
+13>Done building project "libvorbisfile_static.vcxproj".
+11>lstate.c
+11>lstring.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mdriver.c(249,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+2>SDL_d3dmath.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lstring.c(92,7): warning C4267: 'function': conversion from 'size_t' to 'lu_mem', possible loss of data
+11>ltable.c
+2>Generating Code...
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\playercode\mdriver.c(335,37): warning C4244: 'function': conversion from 'unsigned long' to 'UWORD', possible loss of data
+5>mdreg.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ltable.c(108,14): warning C4311: 'type cast': pointer truncation from 'void *const ' to 'lu_hash'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\ltable.c(110,14): warning C4311: 'type cast': pointer truncation from 'GCObject *const ' to 'lu_hash'
+11>ltests.c
+6>load_far.cpp
+11>ltm.c
+12>lib3ds.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\lib3ds.lib
+11>lundump.c
+12>Done building project "lib3ds.vcxproj".
+10>pngrio.c
+4>format.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lundump.c(41,9): warning C4068: unknown pragma 'GCC'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lundump.c(45,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lundump.c(58,14): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lundump.c(54,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lundump.c(75,15): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lundump.c(69,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lundump.c(108,14): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+11>lvm.c
+5>mmio.c
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lvm.c(329,36): warning C4267: '+=': conversion from 'size_t' to 'lu_mem', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lvm.c(338,15): warning C4267: '+=': conversion from 'size_t' to 'lu_mem', possible loss of data
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lvm.c(746,9): warning C4068: unknown pragma 'GCC'
+11>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\lua5\lvm.c(748,29): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+11>lzio.c
+11>Generating Code...
+2>Compiling...
+2>SDL_dinputhaptic.c
+6>load_it.cpp
+5>mmerror.c
+11>lua5.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\lua5.lib
+11>Done building project "lua5.vcxproj".
+10>pngrtran.c
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\format.c(576,81): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\format.c(578,77): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\format.c(580,51): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+4>lpc.c
+5>mmalloc.c
+2>SDL_dinputjoystick.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_it.cpp(693,48): warning C4267: '=': conversion from 'size_t' to 'WORD', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_it.cpp(771,39): warning C4267: '+=': conversion from 'size_t' to 'DWORD', possible loss of data
+6>load_j2b.cpp
+5>load_xm.c
+10>pngrutil.c
+2>SDL_directsound.c
+4>lpc_intrin_sse.c
+4>lpc_intrin_sse2.c
+4>lpc_intrin_sse41.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_xm.c(337,14): warning C4018: '<': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_xm.c(709,19): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_xm.c(726,19): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>load_uni.c
+4>md5.c
+6>load_mdl.cpp
+2>SDL_diskaudio.c
+5>load_umx.c
+2>SDL_drawline.c
+10>pngset.c
+2>SDL_drawpoint.c
+2>SDL_dropevents.c
+4>memory.c
+6>load_med.cpp
+2>SDL_dummyaudio.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_umx.c(272,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+5>load_ult.c
+2>SDL_dynapi.c
+5>Generating Code...
+10>pngtrans.c
+2>SDL_egl.c
+4>metadata_iterators.c
+6>load_mid.cpp
+5>Compiling...
+5>load_stx.c
+2>SDL_error.c
+2>SDL_events.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_stx.c(349,18): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>load_stm.c
+10>pngwio.c
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\metadata_iterators.c(579,25): warning C4244: 'return': conversion from 'const __int64' to 'off_t', possible loss of data
+6>load_mod.cpp
+2>SDL_fillrect.c
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\metadata_iterators.c(1112,33): warning C4244: '+=': conversion from 'const __int64' to 'unsigned int', possible loss of data
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\metadata_iterators.c(1124,44): warning C4244: '=': conversion from '__int64' to 'unsigned int', possible loss of data
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\metadata_iterators.c(1147,35): warning C4244: '-=': conversion from 'const __int64' to 'unsigned int', possible loss of data
+4>metadata_object.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_stm.c(236,12): warning C4018: '<': signed/unsigned mismatch
+2>SDL_gamecontroller.c
+5>load_s3m.c
+2>SDL_gesture.c
+2>SDL_getenv.c
+5>load_okt.c
+10>pngwrite.c
+2>SDL_haptic.c
+6>load_mt2.cpp
+2>SDL_hints.c
+2>SDL_iconv.c
+4>ogg_decoder_aspect.c
+2>SDL_joystick.c
+4>Generating Code...
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_okt.c(221,18): warning C4244: '=': conversion from 'ULONG' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_okt.c(222,30): warning C4018: '>': signed/unsigned mismatch
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_okt.c(223,23): warning C4244: '=': conversion from 'ULONG' to 'UWORD', possible loss of data
+5>load_mtm.c
+2>Generating Code...
+4>Compiling...
+4>ogg_encoder_aspect.c
+2>Compiling...
+2>SDL_keyboard.c
+4>ogg_helper.c
+2>SDL_log.c
+5>load_mod.c
+6>load_mtm.cpp
+10>pngwtran.c
+2>SDL_malloc.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_mod.c(351,18): warning C4018: '<': signed/unsigned mismatch
+5>load_med.c
+2>SDL_mixer.c
+4>ogg_mapping.c
+6>load_okt.cpp
+2>SDL_mmjoystick.c
+4>stream_decoder.c
+10>pngwutil.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_med.c(255,23): warning C4244: 'function': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_med.c(344,16): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+2>SDL_mouse.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_med.c(392,16): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_med.c(575,22): warning C4244: '=': conversion from 'ULONG' to 'CHAR', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_med.c(589,32): warning C4244: 'function': conversion from 'ULONG' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_med.c(595,17): warning C4244: 'function': conversion from 'ULONG' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_med.c(701,27): warning C4244: 'function': conversion from 'ULONG' to 'UWORD', possible loss of data
+5>load_m15.c
+2>SDL_nullevents.c
+2>SDL_nullframebuffer.c
+2>SDL_nullvideo.c
+2>SDL_pixels.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_m15.c(153,11): warning C4018: '<': signed/unsigned mismatch
+2>SDL_power.c
+2>SDL_qsort.c
+6>load_pat.cpp
+5>load_it.c
+2>SDL_quit.c
+10>Generating Code...
+2>SDL_rect.c
+2>SDL_render.c
+4>stream_encoder.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_it.c(434,27): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+2>SDL_render_d3d.c
+5>load_imf.c
+5>load_gt2.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_pat.cpp(200,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_pat.cpp(205,15): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+6>load_psm.cpp
+2>SDL_render_d3d11.c
+2>SDL_render_gl.c
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\stream_encoder.c(3912,123): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+4>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\flac\src\libFLAC\stream_encoder.c(3914,120): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+5>load_gdm.c
+4>stream_encoder_framing.c
+4>stream_encoder_intrin_sse2.c
+10>libpng.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\libpng.lib
+2>SDL_render_gles2.c
+6>Generating Code...
+5>load_far.c
+2>SDL_render_sw.c
+2>Generating Code...
+5>load_dsm.c
+2>Compiling...
+4>stream_encoder_intrin_ssse3.c
+2>SDL_RLEaccel.c
+6>Compiling...
+6>load_ptm.cpp
+2>SDL_rotate.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_dsm.c(271,14): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>load_asy.c
+2>SDL_rwops.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_asy.c(260,17): warning C4018: '<': signed/unsigned mismatch
+5>load_amf.c
+6>load_s3m.cpp
+4>window.c
+2>SDL_shaders_gl.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\loaders\load_amf.c(543,16): warning C4018: '<': signed/unsigned mismatch
+5>load_669.c
+2>SDL_shaders_gles2.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_s3m.cpp(312,52): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+2>SDL_shape.c
+6>load_stm.cpp
+5>drv_xaudio2.c
+2>SDL_spinlock.c
+4>Generating Code...
+2>SDL_stdlib.c
+5>drv_win.c
+6>load_ult.cpp
+2>SDL_stretch.c
+2>SDL_string.c
+2>SDL_surface.c
+2>SDL_syscond.c
+5>drv_wav.c
+2>SDL_sysfilesystem.c
+4>lpc_intrin_avx2.c
+4>stream_encoder_intrin_avx2.c
+6>load_umx.cpp
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_wav.c(122,19): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_wav.c(128,19): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_wav.c(137,19): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>Generating Code...
+5>Compiling...
+5>drv_stdout.c
+2>SDL_sysloadso.c
+6>load_wav.cpp
+2>SDL_sysmutex.c
+4>Generating Code...
+5>drv_sdl.c
+2>SDL_syspower.c
+4>libFLAC_static.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\objs\x64\Debug\lib\libFLAC_static.lib
+5>drv_raw.c
+4>Done building project "libFLAC_static.vcxproj".
+6>load_xm.cpp
+2>SDL_syssem.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_raw.c(107,3): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_raw.c(108,3): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_raw.c(114,3): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_raw.c(115,3): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_raw.c(126,3): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_raw.c(135,2): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+2>SDL_systhread.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_raw.c(140,2): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+5>drv_openal.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\load_xm.cpp(841,13): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+5>drv_nos.c
+2>SDL_systimer.c
+6>mmcmp.cpp
+2>SDL_systls.c
+5>drv_ds.c
+2>Generating Code...
+6>modplug.cpp
+2>Compiling...
+2>SDL_thread.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_ds.c(97,35): warning C4018: '<': signed/unsigned mismatch
+5>drv_aiff.c
+2>SDL_timer.c
+2>SDL_touch.c
+6>sndfile.cpp
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(129,28): warning C4244: '=': conversion from 'ULONG' to 'char', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(130,28): warning C4244: '=': conversion from 'ULONG' to 'char', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(131,19): warning C4244: '=': conversion from 'ULONG' to 'char', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(133,28): warning C4244: '=': conversion from 'ULONG' to 'char', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(134,28): warning C4244: '=': conversion from 'ULONG' to 'char', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(135,19): warning C4244: '=': conversion from 'ULONG' to 'char', possible loss of data
+2>SDL_video.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(195,9): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(204,9): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\drivers\drv_aiff.c(217,9): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+5>xpk.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\xpk.c(90,18): warning C4244: 'return': conversion from 'unsigned long' to 'UWORD', possible loss of data
+2>SDL_wave.c
+5>s404.c
+2>SDL_windowevents.c
+2>SDL_windows.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\sndfile.cpp(796,15): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\sndfile.cpp(813,15): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\s404.c(57,19): warning C4244: 'return': conversion from 'unsigned long' to 'UWORD', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\s404.c(154,16): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\s404.c(179,18): warning C4244: '=': conversion from 'UWORD' to 'UBYTE', possible loss of data
+6>sndmix.cpp
+5>pp20.c
+2>SDL_windowsclipboard.c
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\pp20.c(107,44): warning C4244: '=': conversion from 'ULONG' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\pp20.c(120,7): warning C4244: '=': conversion from 'ULONG' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\pp20.c(124,7): warning C4244: '=': conversion from 'ULONG' to 'UBYTE', possible loss of data
+5>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmikmod\depackers\pp20.c(127,39): warning C4244: '=': conversion from 'ULONG' to 'UBYTE', possible loss of data
+5>mmcmp.c
+6>snd_dsp.cpp
+5>Generating Code...
+2>SDL_windowsevents.c
+6>snd_flt.cpp
+2>SDL_windowsframebuffer.c
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\snd_flt.cpp(59,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\snd_flt.cpp(61,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\snd_flt.cpp(79,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+5>libmikmod.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\libmikmod.lib
+5>Done building project "libmikmod.vcxproj".
+6>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\libmodplug\src\snd_flt.cpp(83,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+6>snd_fx.cpp
+2>SDL_windowshaptic.c
+6>Generating Code...
+2>SDL_windowsjoystick.c
+2>SDL_windowskeyboard.c
+6>libmodplug.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\libmodplug.lib
+6>Done building project "libmodplug.vcxproj".
+14>------ Rebuild All started: Project: sdl_sound_static, Configuration: Debug x64 ------
+2>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL2\src\video\windows\SDL_windowskeyboard.c(417,9): warning C4996: 'GetVersionExA': was declared deprecated
+2>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL2\src\video\windows\SDL_windowskeyboard.c(508,67): warning C4312: 'type cast': conversion from 'unsigned int' to 'HKL' of greater size
+2>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL2\src\video\windows\SDL_windowskeyboard.c(543,16): warning C4312: 'type cast': conversion from 'unsigned int' to 'HKL' of greater size
+2>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL2\src\video\windows\SDL_windowskeyboard.c(544,19): warning C4312: 'type cast': conversion from 'unsigned int' to 'HKL' of greater size
+2>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL2\src\video\windows\SDL_windowskeyboard.c(545,19): warning C4312: 'type cast': conversion from 'unsigned int' to 'HKL' of greater size
+2>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL2\src\video\windows\SDL_windowskeyboard.c(546,19): warning C4312: 'type cast': conversion from 'unsigned int' to 'HKL' of greater size
+2>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL2\src\video\windows\SDL_windowskeyboard.c(547,19): warning C4312: 'type cast': conversion from 'unsigned int' to 'HKL' of greater size
+2>SDL_windowsmessagebox.c
+14>audio_convert.c
+14>aiff.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\aiff.c(308,14): warning C4267: '=': conversion from 'size_t' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\aiff.c(341,14): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\aiff.c(470,11): warning C4244: '=': conversion from 'Sint64' to 'long', possible loss of data
+2>SDL_windowsmodes.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\aiff.c(525,35): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\aiff.c(557,14): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>au.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\au.c(256,25): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\au.c(169,9): warning C4101: 'skip': unreferenced local variable
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\au.c(326,16): warning C4018: '>': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\au.c(328,11): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\au.c(357,14): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\au.c(376,10): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+14>flac.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(195,14): warning C4267: '=': conversion from 'size_t' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(304,58): warning C4244: '=': conversion from 'const FLAC__uint64' to 'Sint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(354,11): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(391,11): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(393,25): warning C4018: '>=': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(449,14): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(449,14): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(495,11): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(498,28): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\flac.c(543,12): warning C4101: 'len': unreferenced local variable
+14>compat.c
+2>SDL_windowsmouse.c
+14>dct64.c
+14>dct64_i386.c
+14>decode.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode.c(21,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode.c(50,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode.c(78,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode.c(108,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode.c(201,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode.c(214,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode.c(239,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>decode_2to1.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_2to1.c(18,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_2to1.c(46,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_2to1.c(74,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_2to1.c(103,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_2to1.c(192,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_2to1.c(208,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_2to1.c(236,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>decode_4to1.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_4to1.c(21,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_4to1.c(49,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_4to1.c(77,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_4to1.c(106,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_4to1.c(195,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_4to1.c(213,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_4to1.c(243,7): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>decode_i386.c
+2>SDL_windowsopengl.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_i386.c(23,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_i386.c(47,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_i386.c(70,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_i386.c(94,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>decode_ntom.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(148,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(176,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(203,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(232,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(254,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(337,9): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(357,9): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\decode_ntom.c(395,9): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+14>equalizer.c
+14>format.c
+14>frame.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(501,24): warning C4244: '=': conversion from 'double' to 'off_t', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(543,18): warning C4267: '=': conversion from 'size_t' to 'off_t', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(752,53): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(792,27): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(833,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(838,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1073,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1074,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1075,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1076,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1077,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1078,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1079,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1080,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1081,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\frame.c(1082,6): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>icy.c
+14>icy2utf8.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\icy2utf8.c(384,27): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+14>id3.c
+2>SDL_windowsopengles.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(224,18): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(288,14): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(335,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(324,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(325,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(326,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(327,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(329,15): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(330,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(331,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(352,14): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(402,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(407,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(379,7): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(384,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(385,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(388,7): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(393,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(394,12): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(685,44): warning C4267: '+=': conversion from 'size_t' to 'unsigned long', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(679,16): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(680,19): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(681,19): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(841,16): warning C4244: '=': conversion from 'unsigned long' to 'unsigned char', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(846,16): warning C4244: '=': conversion from 'unsigned long' to 'unsigned char', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\id3.c(852,16): warning C4244: '=': conversion from 'unsigned long' to 'unsigned char', possible loss of data
+14>index.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\index.c(89,28): warning C4267: 'initializing': conversion from 'size_t' to 'off_t', possible loss of data
+14>layer1.c
+14>Generating Code...
+14>Compiling...
+14>layer2.c
+2>SDL_windowsshape.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer2.c(107,38): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer2.c(113,46): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer2.c(128,38): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer2.c(180,38): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer2.c(212,44): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+14>layer3.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer3.c(391,24): warning C4018: '>': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer3.c(1731,15): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer3.c(1737,15): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer3.c(1829,39): warning C4018: '>': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer3.c(1854,22): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\layer3.c(1862,22): warning C4018: '<': signed/unsigned mismatch
+14>libmpg123.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\libmpg123.c(565,29): warning C4013: 'ntom_set_ntom' undefined; assuming extern returning int
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\libmpg123.c(712,25): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\libmpg123.c(780,51): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\libmpg123.c(876,67): warning C4267: 'function': conversion from 'size_t' to 'off_t', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\libmpg123.c(880,69): warning C4267: 'function': conversion from 'size_t' to 'off_t', possible loss of data
+14>optimize.c
+14>parse.c
+2>SDL_windowsvideo.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\parse.c(340,71): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\parse.c(999,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\parse.c(1003,11): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+14>readers.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(37,82): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(37,68): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(38,70): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(171,29): warning C4267: 'function': conversion from 'size_t' to 'off_t', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(152,21): warning C4267: 'initializing': conversion from 'size_t' to 'ssize_t', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(220,40): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(504,24): warning C4267: 'initializing': conversion from 'size_t' to 'ssize_t', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\libmpg123\readers.c(909,20): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+14>stringbuf.c
+14>tabinit.c
+2>Generating Code...
+14>testcpu.c
+14>midi.c
+14>mikmod.c
+2>Compiling...
+2>SDL_windowswindow.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\mikmod.c(110,15): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\mikmod.c(124,12): warning C4267: 'return': conversion from 'size_t' to 'BOOL', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\mikmod.c(148,12): warning C4244: 'return': conversion from 'Sint64' to 'BOOL', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\mikmod.c(158,12): warning C4244: 'return': conversion from 'Sint64' to 'long', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\mikmod.c(180,16): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\mikmod.c(183,27): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+2>SDL_winmm.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\mikmod.c(465,12): warning C4018: '>=': signed/unsigned mismatch
+14>modplug.c
+14>mpg123.c
+14>ogg.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\ogg.c(108,12): warning C4244: 'return': conversion from 'Sint64' to 'int', possible loss of data
+2>SDL_xaudio2.c
+14>raw.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\raw.c(129,17): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\raw.c(160,14): warning C4267: '=': conversion from 'size_t' to 'Uint32', possible loss of data
+14>shn.c
+2>SDL_xinput.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\shn.c(234,26): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\shn.c(496,22): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\shn.c(572,31): warning C4244: '=': conversion from 'Uint16' to 'Uint8', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\shn.c(670,22): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>speex.c
+14>common.c
+2>SDL_xinputhaptic.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\timidity\common.c(69,6): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+14>instrum.c
+14>instrum_dls.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\timidity\instrum_dls.c(231,5): warning C4013: 'printf' undefined; assuming extern returning int
+2>SDL_xinputjoystick.c
+14>Generating Code...
+14>Compiling...
+14>mix.c
+14>output.c
+2>SDL_yuv_mmx.c
+14>playmidi.c
+2>SDL_yuv_sw.c
+2>Generating Code...
+14>readmidi.c
+14>resample.c
+14>tables.c
+14>timidity.c
+14>voc.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(233,52): warning C4244: '=': conversion from 'double' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(325,30): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(376,30): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(428,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(429,22): warning C4018: '<': signed/unsigned mismatch
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(439,19): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(442,22): warning C4244: '=': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(473,20): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(537,14): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\voc.c(559,19): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>wav.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(77,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(87,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(97,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(187,45): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(264,14): warning C4267: '=': conversion from 'size_t' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(290,14): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(408,12): warning C4101: 'delta': unreferenced local variable
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(413,15): warning C4101: 'byte': unreferenced local variable
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(538,19): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(543,14): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(665,18): warning C4244: 'initializing': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(722,33): warning C4244: '=': conversion from 'Sint64' to 'Uint32', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(691,12): warning C4101: 'pos': unreferenced local variable
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\decoders\wav.c(786,14): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>extra_rwops.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(49,20): warning C4244: 'return': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(57,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(65,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(122,26): warning C4113: 'int (__cdecl *)(SDL_RWops *,int,int)' differs in parameter lists from 'Sint64 (__cdecl *)(SDL_RWops *,Sint64,int)'
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(122,26): warning C4133: '=': incompatible types - from 'int (__cdecl *)(SDL_RWops *,int,int)' to 'Sint64 (__cdecl *)(SDL_RWops *,Sint64,int)'
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(123,26): warning C4113: 'int (__cdecl *)(SDL_RWops *,void *,int,int)' differs in parameter lists from 'size_t (__cdecl *)(SDL_RWops *,void *,size_t,size_t)'
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(123,26): warning C4133: '=': incompatible types - from 'int (__cdecl *)(SDL_RWops *,void *,int,int)' to 'size_t (__cdecl *)(SDL_RWops *,void *,size_t,size_t)'
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(124,27): warning C4113: 'int (__cdecl *)(SDL_RWops *,const void *,int,int)' differs in parameter lists from 'size_t (__cdecl *)(SDL_RWops *,const void *,size_t,size_t)'
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\extra_rwops.c(124,27): warning C4133: '=': incompatible types - from 'int (__cdecl *)(SDL_RWops *,const void *,int,int)' to 'size_t (__cdecl *)(SDL_RWops *,const void *,size_t,size_t)'
+14>SDL_sound.c
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\SDL_sound.c(487,15): warning C4244: 'initializing': conversion from 'Sint64' to 'int', possible loss of data
+14>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\SDL_sound\SDL_sound.c(679,24): warning C4090: 'function': different 'const' qualifiers
+14>Generating Code...
+2>winmm.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in version.lib(VERSION.dll); second definition ignored
+2>imm32.lib(IMM32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in version.lib(VERSION.dll); second definition ignored
+2>SDL.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\SDL2.lib
+2>Done building project "SDL.vcxproj".
+14>sdl_sound_static.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\sdl_sound_static_d.lib
+14>Done building project "sdl_sound_static.vcxproj".
+15>------ Rebuild All started: Project: nebu, Configuration: Debug x64 ------
+15>audio_system.c
+15>music_rwop.c
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\audio\music_rwop.c(20,17): warning C4113: 'unsigned long (__cdecl *)(SDL_RWops *,void *,unsigned long,unsigned long)' differs in parameter lists from 'size_t (__cdecl *)(SDL_RWops *,void *,size_t,size_t)'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\audio\music_rwop.c(20,17): warning C4133: '=': incompatible types - from 'unsigned long (__cdecl *)(SDL_RWops *,void *,unsigned long,unsigned long)' to 'size_t (__cdecl *)(SDL_RWops *,void *,size_t,size_t)'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\audio\music_rwop.c(23,18): warning C4113: 'int (__cdecl *)()' differs in parameter lists from 'int (__cdecl *)(SDL_RWops *)'
+15>debug_memory.c
+15>matrix.c
+15>nebu_log.c
+15>quat.c
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(12,7): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(14,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(15,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(16,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(19,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(20,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(26,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(28,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(33,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\quat.c(36,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+15>random.c
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\random.c(24,9): warning C4068: unknown pragma 'GCC'
+15>resource.c
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(48,2): warning C4311: 'type cast': pointer truncation from 'nebu_List *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(72,2): warning C4311: 'type cast': pointer truncation from 'nebu_List *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(86,2): warning C4311: 'type cast': pointer truncation from 'ResourceToken *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(90,2): warning C4311: 'type cast': pointer truncation from 'nebu_List *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(115,2): warning C4311: 'type cast': pointer truncation from 'nebu_List *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(170,3): warning C4311: 'type cast': pointer truncation from 'ResourceToken *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(188,2): warning C4311: 'type cast': pointer truncation from 'ResourceToken *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(195,2): warning C4311: 'type cast': pointer truncation from 'nebu_List *' to 'int'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\resource.c(205,2): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+15>spline.c
+15>surface.c
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\surface.c(96,4): warning C4013: 'memcpy' undefined; assuming extern returning int
+15>system.c
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\system.c(50,9): warning C4068: unknown pragma 'GCC'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\system.c(53,9): warning C4068: unknown pragma 'GCC'
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\system.c(51,31): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+15>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\nebu\base\system.c(52,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+15>util.c
+15>vector.c
+15>directory.c
+15>filesystem.c
+15>file_io.c
+15>findpath.c
+15>input_system.c
+15>scripting.c
+15>2d.c
+15>Generating Code...
+15>Compiling...
+15>camera.c
+15>console.c
+15>font.c
+15>geometry.c
+15>mesh.c
+15>mesh_3ds.c
+15>mesh_shadow.c
+15>pixels.c
+15>png_texture.c
+15>scene.c
+15>texture2d.c
+15>video_system.c
+15>video_utility.c
+15>Generating Code...
+15>SoundSystem.cpp
+15>Source.cpp
+15>Source3D.cpp
+15>SourceCopy.cpp
+15>SourceEngine.cpp
+15>SourceMusic.cpp
+15>SourceSample.cpp
+15>Generating Code...
+15>SDL2.lib(WINMM.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(IMM32.dll); second definition ignored
+15>SDL2.lib(VERSION.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(IMM32.dll); second definition ignored
+15>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(IMM32.dll); second definition ignored
+15>glu32.lib(GLU32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(IMM32.dll); second definition ignored
+15>nebu.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\nebu.lib
+15>Done building project "nebu.vcxproj".
+16>------ Rebuild All started: Project: GLtron, Configuration: Debug x64 ------
+16>sound.c
+16>util.c
+16>settings.c
+16>dirsetup.c
+16>path.c
+16>32bit_warning.c
+16>camera.c
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\camera.c(172,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\camera.c(173,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\camera.c(174,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+16>computer.c
+16>computer_utilities.c
+16>credits.c
+16>engine.c
+16>event.c
+16>game.c
+16>globals.c
+16>gui.c
+16>init.c
+16>pause.c
+16>resource.c
+16>scripting_interface.c
+16>switchCallbacks.c
+16>Generating Code...
+16>Compiling...
+16>timedemo.c
+16>gltron.c
+16>input.c
+16>artpack.c
+16>explosion.c
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\explosion.c(33,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\explosion.c(34,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\explosion.c(35,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\explosion.c(36,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+16>fonts.c
+16>gamegraphics.c
+16>graphics_fx.c
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(66,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(66,49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(67,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(67,48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(68,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(68,48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(69,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(69,48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(70,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(70,48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(71,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(71,48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(103,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(103,50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(105,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\graphics_fx.c(105,48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+16>graphics_hud.c
+16>graphics_lights.c
+16>graphics_utility.c
+16>graphics_world.c
+16>hud.c
+16>material.c
+16>model.c
+16>recognizer.c
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\recognizer.c(13,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\recognizer.c(18,43): warning C4305: 'initializing': truncation from 'double' to 'const float'
+16>screenshot.c
+16>skybox.c
+16>texture.c
+16>trail.c
+16>Generating Code...
+16>Compiling...
+16>trail_geometry.c
+16>trail_render.c
+16>video.c
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\video.c(317,2): warning C4311: 'type cast': pointer truncation from 'Game *' to 'int'
+16>visuals_2d.c
+16>adler32.c
+16>compress.c
+16>crc32.c
+16>deflate.c
+16>gzclose.c
+16>gzlib.c
+16>gzread.c
+16>gzwrite.c
+16>infback.c
+16>inffast.c
+16>inflate.c
+16>inftrees.c
+16>trees.c
+16>uncompr.c
+16>zutil.c
+16>Generating Code...
+16>sound_glue.cpp
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\audio\sound_glue.cpp(33,9): warning C4068: unknown pragma 'GCC'
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\audio\sound_glue.cpp(58,9): warning C4068: unknown pragma 'GCC'
+16>level.c
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\level.c(64,2): warning C4311: 'type cast': pointer truncation from 'gltron_Mesh *' to 'int'
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\level.c(65,2): warning C4311: 'type cast': pointer truncation from 'nebu_Mesh_ShadowInfo *' to 'int'
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\level.c(174,3): warning C4311: 'type cast': pointer truncation from 'game_spawnpoint *' to 'int'
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\level.c(269,3): warning C4311: 'type cast': pointer truncation from 'vec2 *' to 'int'
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\game\level.c(275,3): warning C4311: 'type cast': pointer truncation from 'segment2 *' to 'int'
+16>level.c
+16>D:\hgh\devel\repos\github\hghpublic\andi75-gltron\GLtron\video\level.c(51,2): warning C4311: 'type cast': pointer truncation from 'gltron_Mesh *' to 'int'
+16>   Creating library D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\GLtron.lib and object D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\GLtron.exp
+16>GLtron.vcxproj -> D:\hgh\devel\repos\github\hghpublic\andi75-gltron\x64\Debug\GLtron.exe
+16>Der Befehl "pwsh.exe" ist entweder falsch geschrieben oder
+16>konnte nicht gefunden werden.
+16>Done building project "GLtron.vcxproj".
+========== Rebuild All: 16 succeeded, 0 failed, 0 skipped ==========
+========== Rebuild completed at 03:42 and took 34,291 seconds ==========

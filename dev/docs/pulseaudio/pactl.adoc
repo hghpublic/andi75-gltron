@@ -1,0 +1,809 @@
+= pactl
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+== pactl
+
+=== info
+
+[source, zsh]
+----
+❯ pactl info
+Server String: 192.168.178.39:4713
+Library Protocol Version: 35
+Server Protocol Version: 35
+Is Local: no
+Client Index: 33
+Tile Size: 65472
+User Name: hgh
+Host Name: HGHDEVMBP2401
+Server Name: pulseaudio
+Server Version: 17.0
+Default Sample Specification: s16le 2ch 44100Hz
+Default Channel Map: front-left,front-right
+Default Sink: Channel_1__Channel_2.3
+Default Source: Front_Left
+Cookie: e2bb:103b
+
+❯ pactl list sinks | grep Name
+        Name: Channel_1__Channel_2
+        Name: Channel_1__Channel_2.2
+        Name: Channel_1__Channel_2.3
+        Name: Front_Left__Front_Right
+        Name: 1__2
+        Name: Channel_1
+
+❯ pactl info | sed -ne 's/^.*Default Sink: //p'
+Channel_1__Channel_2.3
+----
+
+=== list modules
+
+[source, bash]
+----
+❯ pactl list modules
+Module #0
+        Name: module-device-restore
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Automatically restore the volume/mute state of devices"
+                module.version = "17.0"
+
+Module #1
+        Name: module-stream-restore
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Automatically restore the volume/mute/device state of streams"
+                module.version = "17.0"
+
+Module #2
+        Name: module-card-restore
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Automatically restore profile of cards"
+                module.version = "17.0"
+
+Module #3
+        Name: module-augment-properties
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Augment the property sets of streams with additional static information"
+                module.version = "17.0"
+
+Module #4
+        Name: module-switch-on-port-available
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "David Henningsson"
+                module.description = "Switches ports and profiles when devices are plugged/unplugged"
+                module.version = "17.0"
+
+Module #5
+        Name: module-coreaudio-detect
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device detection"
+                module.version = "17.0"
+
+Module #6
+        Name: module-coreaudio-device
+        Argument: object_id=99 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #7
+        Name: module-coreaudio-device
+        Argument: object_id=123 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #8
+        Name: module-coreaudio-device
+        Argument: object_id=138 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #9
+        Name: module-coreaudio-device
+        Argument: object_id=114 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #10
+        Name: module-coreaudio-device
+        Argument: object_id=119 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #11
+        Name: module-coreaudio-device
+        Argument: object_id=92 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #12
+        Name: module-coreaudio-device
+        Argument: object_id=85 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #14
+        Name: module-coreaudio-device
+        Argument: object_id=61 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+
+Module #15
+        Name: module-native-protocol-unix
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Native protocol (UNIX sockets)"
+                module.version = "17.0"
+
+Module #16
+        Name: module-default-device-restore
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Automatically restore the default sink and source"
+                module.version = "17.0"
+
+Module #17
+        Name: module-always-sink
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Colin Guthrie"
+                module.description = "Hält stets ein Ziel geladen, selbst wenn dies ein Null-Ziel ist"
+                module.version = "17.0"
+
+Module #18
+        Name: module-intended-roles
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Automatically set device of streams based on intended roles of devices"
+                module.version = "17.0"
+
+Module #19
+        Name: module-suspend-on-idle
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "When a sink/source is idle for too long, suspend it"
+                module.version = "17.0"
+
+Module #20
+        Name: module-position-event-sounds
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Position event sounds between L and R depending on the position on screen of the widget triggering them."
+                module.version = "17.0"
+
+Module #21
+        Name: module-role-cork
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Mute & cork streams with certain roles while others exist"
+                module.version = "17.0"
+
+Module #22
+        Name: module-filter-heuristics
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Colin Guthrie"
+                module.description = "Detect when various filters are desirable"
+                module.version = "17.0"
+
+Module #23
+        Name: module-filter-apply
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Colin Guthrie"
+                module.description = "Load filter sinks automatically when needed"
+                module.version = "17.0"
+
+Module #24
+        Name: module-native-protocol-tcp
+        Argument: 
+        Usage counter: n/a
+        Properties:
+                module.author = "Lennart Poettering"
+                module.description = "Native protocol (TCP sockets)"
+                module.version = "17.0"
+
+Module #25
+        Name: module-coreaudio-device
+        Argument: object_id=170 record=1 playback=1
+        Usage counter: n/a
+        Properties:
+                module.author = "Daniel Mack"
+                module.description = "CoreAudio device"
+                module.version = "17.0"
+----
+
+=== list cards
+
+[source, bash]
+----
+❯ pactl list cards  
+Card #0
+        Name: DELL_U2415
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "DELL U2415"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #1
+        Name: DELL_U2415.2
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "DELL U2415"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #2
+        Name: JBL_Xtreme_3
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "JBL Xtreme 3"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #3
+        Name: Jabra_Link_370
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "Jabra Link 370"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #4
+        Name: Jabra_Link_370.2
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "Jabra Link 370"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #5
+        Name: MacBook_Pro_Microphone
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "MacBook Pro Microphone"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #6
+        Name: MacBook_Pro_Speakers
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "MacBook Pro Speakers"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #8
+        Name: Microsoft_Teams_Audio
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "Microsoft Teams Audio"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+
+Card #9
+        Name: HGHDEVMP2301_Microphone
+        Driver: module-coreaudio-device.c
+        Owner Module: n/a
+        Properties:
+                device.string = "HGHDEVMP2301 Microphone"
+                device.icon_name = "audio-card"
+        Profiles:
+                on: Ein (sinks: 0, sources: 0, priority: 0, available: yes)
+        Active Profile: on
+----
+
+=== list sources
+
+[source, bash]
+----
+❯ pactl list sources
+Source #0
+        State: SUSPENDED
+        Name: Channel_1__Channel_2.monitor
+        Description: Monitor of DELL U2415
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 6
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: Channel_1__Channel_2
+        Latency: 0 usec, configured 0 usec
+        Flags: DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.description = "Monitor of DELL U2415"
+                device.class = "monitor"
+                device.string = "DELL U2415"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #1
+        State: SUSPENDED
+        Name: Channel_1__Channel_2.2.monitor
+        Description: Monitor of DELL U2415
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 7
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: Channel_1__Channel_2.2
+        Latency: 0 usec, configured 0 usec
+        Flags: DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.description = "Monitor of DELL U2415"
+                device.class = "monitor"
+                device.string = "DELL U2415"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #2
+        State: SUSPENDED
+        Name: Channel_1__Channel_2.3.monitor
+        Description: Monitor of JBL Xtreme 3
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 44100Hz
+        Channel Map: front-left,front-right
+        Owner Module: 8
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: Channel_1__Channel_2.3
+        Latency: 0 usec, configured 0 usec
+        Flags: DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.description = "Monitor of JBL Xtreme 3"
+                device.class = "monitor"
+                device.string = "JBL Xtreme 3"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #3
+        State: SUSPENDED
+        Name: Front_Left__Front_Right.monitor
+        Description: Monitor of Jabra Link 370
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 9
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: Front_Left__Front_Right
+        Latency: 0 usec, configured 0 usec
+        Flags: DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.description = "Monitor of Jabra Link 370"
+                device.class = "monitor"
+                device.string = "Jabra Link 370"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #4
+        State: SUSPENDED
+        Name: Front_Left
+        Description: Jabra Link 370
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 1ch 16000Hz
+        Channel Map: mono
+        Owner Module: 10
+        Mute: no
+        Volume: mono: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: n/a
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "Jabra Link 370"
+                device.product.name = "Jabra Link 370"
+                device.description = "Jabra Link 370"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "2048"
+                device.vendor.name = "Unknown Manufacturer"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #5
+        State: SUSPENDED
+        Name: 1
+        Description: MacBook Pro Microphone
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 1ch 44100Hz
+        Channel Map: mono
+        Owner Module: 11
+        Mute: no
+        Volume: mono: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: n/a
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "MacBook Pro Microphone"
+                device.product.name = "MacBook Pro Microphone"
+                device.description = "MacBook Pro Microphone"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "2048"
+                device.vendor.name = "Apple Inc."
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #6
+        State: SUSPENDED
+        Name: 1__2.monitor
+        Description: Monitor of MacBook Pro Speakers
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 12
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: 1__2
+        Latency: 0 usec, configured 0 usec
+        Flags: DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.description = "Monitor of MacBook Pro Speakers"
+                device.class = "monitor"
+                device.string = "MacBook Pro Speakers"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #8
+        State: SUSPENDED
+        Name: Channel_1.monitor
+        Description: Monitor of Microsoft Teams Audio
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 1ch 48000Hz
+        Channel Map: mono
+        Owner Module: 14
+        Mute: no
+        Volume: mono: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: Channel_1
+        Latency: 0 usec, configured 0 usec
+        Flags: DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.description = "Monitor of Microsoft Teams Audio"
+                device.class = "monitor"
+                device.string = "Microsoft Teams Audio"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #9
+        State: SUSPENDED
+        Name: Channel_1.2
+        Description: Microsoft Teams Audio
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 1ch 48000Hz
+        Channel Map: mono
+        Owner Module: 14
+        Mute: no
+        Volume: mono: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: n/a
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "Microsoft Teams Audio"
+                device.product.name = "Microsoft Teams Audio"
+                device.description = "Microsoft Teams Audio"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "2048"
+                device.vendor.name = "Microsoft Corp."
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Source #10
+        State: SUSPENDED
+        Name: 1.2
+        Description: HGHDEVMP2301 Microphone
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 1ch 48000Hz
+        Channel Map: mono
+        Owner Module: 25
+        Mute: no
+        Volume: mono: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor of Sink: n/a
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "HGHDEVMP2301 Microphone"
+                device.product.name = "HGHDEVMP2301 Microphone"
+                device.description = "HGHDEVMP2301 Microphone"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "2048"
+                device.vendor.name = "Apple Inc."
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+----
+
+=== list sinks
+
+[source, bash]
+----
+❯ pactl list sinks  
+Sink #0
+        State: SUSPENDED
+        Name: Channel_1__Channel_2
+        Description: DELL U2415
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 6
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: Channel_1__Channel_2.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "DELL U2415"
+                device.product.name = "DELL U2415"
+                device.description = "DELL U2415"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "4096"
+                device.vendor.name = "DEL"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Sink #1
+        State: SUSPENDED
+        Name: Channel_1__Channel_2.2
+        Description: DELL U2415
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 7
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: Channel_1__Channel_2.2.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "DELL U2415"
+                device.product.name = "DELL U2415"
+                device.description = "DELL U2415"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "4096"
+                device.vendor.name = "DEL"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Sink #2
+        State: SUSPENDED
+        Name: Channel_1__Channel_2.3
+        Description: JBL Xtreme 3
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 44100Hz
+        Channel Map: front-left,front-right
+        Owner Module: 8
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: Channel_1__Channel_2.3.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "JBL Xtreme 3"
+                device.product.name = "JBL Xtreme 3"
+                device.description = "JBL Xtreme 3"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "4096"
+                device.vendor.name = "Apple Inc."
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Sink #3
+        State: SUSPENDED
+        Name: Front_Left__Front_Right
+        Description: Jabra Link 370
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 9
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: Front_Left__Front_Right.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "Jabra Link 370"
+                device.product.name = "Jabra Link 370"
+                device.description = "Jabra Link 370"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "4096"
+                device.vendor.name = "Unknown Manufacturer"
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Sink #4
+        State: SUSPENDED
+        Name: 1__2
+        Description: MacBook Pro Speakers
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 2ch 48000Hz
+        Channel Map: front-left,front-right
+        Owner Module: 12
+        Mute: no
+        Volume: front-left: 65536 / 100% / 0.00 dB,   front-right: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: 1__2.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "MacBook Pro Speakers"
+                device.product.name = "MacBook Pro Speakers"
+                device.description = "MacBook Pro Speakers"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "4096"
+                device.vendor.name = "Apple Inc."
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+Sink #5
+        State: SUSPENDED
+        Name: Channel_1
+        Description: Microsoft Teams Audio
+        Driver: module-coreaudio-device.c
+        Sample Specification: float32le 1ch 48000Hz
+        Channel Map: mono
+        Owner Module: 14
+        Mute: no
+        Volume: mono: 65536 / 100% / 0.00 dB
+                balance 0.00
+        Base Volume: 65536 / 100% / 0.00 dB
+        Monitor Source: Channel_1.monitor
+        Latency: 0 usec, configured 0 usec
+        Flags: HARDWARE DECIBEL_VOLUME LATENCY 
+        Properties:
+                device.string = "Microsoft Teams Audio"
+                device.product.name = "Microsoft Teams Audio"
+                device.description = "Microsoft Teams Audio"
+                device.access_mode = "mmap"
+                device.class = "sound"
+                device.api = "CoreAudio"
+                device.buffering.buffer_size = "2048"
+                device.vendor.name = "Microsoft Corp."
+                device.icon_name = "audio-card"
+        Formats:
+                pcm
+
+----

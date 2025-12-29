@@ -1,0 +1,26 @@
+= FFmpeg
+
+
+== FFmpeg
+
+https://www.ffmpeg.org/
+
+https://git.ffmpeg.org/ffmpeg.git
+
+
+https://github.com/FFmpeg/FFmpeg
+
+== Stash
+
+=== An ffmpeg and SDL Tutorial
+
+http://dranger.com/ffmpeg/ffmpeg.html
+
+=== GitHub
+
+https://github.com/leandromoreira/ffmpeg-libav-tutorial/
+
+
+https://github.com/fosterseth/sdl2_video_player
+
+https://github.com/raullalves/player-cpp-ffmpeg-sdl

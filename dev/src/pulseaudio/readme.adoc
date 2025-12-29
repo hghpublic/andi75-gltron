@@ -1,0 +1,8 @@
+= pulseaudio
+
+
+https://www.freedesktop.org/software/pulseaudio/doxygen/
+
+https://github.com/pulseaudio/pulseaudio
+
+https://wiki.archlinux.org/title/Pacat

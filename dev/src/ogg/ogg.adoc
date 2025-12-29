@@ -1,0 +1,11 @@
+= ogg
+
+== ogg
+
+https://www.xiph.org/ogg/
+
+https://gitlab.xiph.org/xiph/ogg
+
+https://gitlab.xiph.org/xiph/liboggplay
+
+https://github.com/doublec/oggplayer

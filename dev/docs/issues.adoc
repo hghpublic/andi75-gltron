@@ -1,0 +1,51 @@
+= Issues
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+== Issues
+
+----
+
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c: In function 'nebu_argv_Parse':
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:54:79: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+[build]    54 |                         pArguments->pKeys[iArg] = (char*) malloc((keyLen + 1) * sizeof(char));
+[build]       |                                                                               ^
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:55:81: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+[build]    55 |                         pArguments->pValues[iArg] = (char*) malloc((valLen + 1) * sizeof(char));
+[build]       |                                                                                 ^
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:56:71: warning: conversion to 'size_t' {aka 'long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+[build]    56 |                         strncpy(pArguments->pKeys[iArg], argv[i] + 2, keyLen);
+[build]       |                                                                       ^~~~~~
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:58:86: warning: conversion to 'size_t' {aka 'long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+[build]    58 |                         strncpy(pArguments->pValues[iArg], argv[i] + 2 + keyLen + 1, valLen);
+[build]       |                                                                                      ^~~~~~
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c: In function 'nebu_Time_Update':
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:98:19: warning: conversion to 'int' from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+[build]    98 |         int now = nebu_Time_GetElapsed();
+[build]       |                   ^~~~~~~~~~~~~~~~~~~~
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:101:39: warning: conversion to 'unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+[build]   101 |         nebu_Time_SetCurrentFrameTime(now);
+[build]       |                                       ^~~
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c: In function 'nebu_Time_SetCurrentFrameTime':
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:111:21: warning: conversion to 'int' from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+[build]   111 |         lastFrame = t;
+[build]       |                     ^
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c: In function 'nebu_Time_GetElapsedSinceLastFrame':
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:115:39: warning: conversion to 'unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+[build]   115 |         return nebu_Time_GetElapsed() - lastFrame;
+[build]       |                                       ^
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c: In function 'nebu_Time_FrameDelay':
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:122:41: warning: conversion to 'int' from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+[build]   122 |                 nebu_System_Sleep(delay - timeSinceLastFrame);
+[build]       |                                   ~~~~~~^~~~~~~~~~~~~~~~~~~~
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c: In function 'nebu_System_Sleep':
+[build] /workspaces/andi75-gltron/GLtron/nebu/base/system.c:256:19: warning: conversion to 'Uint32' {aka 'unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+[build]   256 |         SDL_Delay(ms);
+[build]       |                   ^~
+
+
+----

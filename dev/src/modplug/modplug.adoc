@@ -1,0 +1,16 @@
+= modplug
+
+
+https://modplug-xmms.sourceforge.net/
+
+
+https://github.com/Konstanty/libmodplug
+
+
+https://github.com/xmms2/xmms2-devel
+
+https://github.com/xmms2/xmms2-tutorial
+
+https://github.com/xmms2/wiki/wiki
+
+https://github.com/xmms2/xmms2-stable

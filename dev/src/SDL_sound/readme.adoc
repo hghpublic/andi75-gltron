@@ -1,0 +1,19 @@
+= SDL_sound
+
+https://github.com/icculus/SDL_sound
+
+https://github.com/icculus/SDL_sound/tree/stable-2.0
+
+[source, shell]
+----
+❯  ./playsound $WORKSPACE_ROOT/Resources/music/song_revenge_of_cats.mp3
+SDL_Init() failed!
+  reason: [dsp: No such audio device].
+
+❯  ./playsound_simple $WORKSPACE_ROOT/Resources/music/song_revenge_of_cats.mp3
+Couldn't open audio device: dsp: No such audio device.
+----
+
+== How do I choose a specific audio driver?
+
+https://wiki.libsdl.org/SDL2/FAQUsingSDL#how_do_i_choose_a_specific_audio_driver

@@ -1,0 +1,14 @@
+= list_decoders
+
+[source, bash]
+----
+❯ ./build/list_decoders
+--- Chunk Decoders ---
+WAVE
+AIFF
+VOC
+
+--- Music Decoders ---
+CMD
+WAVE
+----

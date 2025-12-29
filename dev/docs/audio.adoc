@@ -1,0 +1,53 @@
+= audio
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+== audio
+----
+
+[scripting audio] found track ' song_revenge_of_cats.mp3        '
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(57:12) `void Audio_Init()`: not implemented
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(127:12) `void Audio_LoadSample(char*, int)`: not implemented - name=data/game_engine.wav, number=0
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(127:12) `void Audio_LoadSample(char*, int)`: not implemented - name=data/game_crash.wav, number=1
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(127:12) `void Audio_LoadSample(char*, int)`: not implemented - name=data/game_recognizer.wav, number=2
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(96:12) `void Audio_SetFxVolume(float)`: not implemented - volume=0.2
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(74:12) `void Audio_LoadMusic(char*)`: not implemented - name=music/song_revenge_of_cats.mp3
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(91:12) `void Audio_SetMusicVolume(float)`: not implemented - volume=0.5
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(80:12) `void Audio_PlayMusic()`: not implemented
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(91:12) `void Audio_SetMusicVolume(float)`: not implemented - volume=0.5
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(62:12) `void Audio_Start()`: not implemented
+[script] current menu is 'RootMenu', active is '1'
+[script] calling action of 'GameMenu', type 1
+Menu.current is 'GameMenu'
+[script] current menu is 'GameMenu', active is '1'
+[script] calling action of 'StartGame', type 7
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(111:12) `void Audio_ResetData()`: not implemented
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(41:12) `void Audio_DisableEngine()`: not implemented
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(36:12) `void Audio_EnableEngine()`: not implemented
+key 'Up' (82) is not bound
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(52:12) `void Audio_CrashPlayer(int)`: not implemented. player=2
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(106:12) `void Audio_StopEngine(int)`: not implemented - iPlayer=2
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(52:12) `void Audio_CrashPlayer(int)`: not implemented. player=0
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(106:12) `void Audio_StopEngine(int)`: not implemented - iPlayer=0
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(52:12) `void Audio_CrashPlayer(int)`: not implemented. player=1
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(106:12) `void Audio_StopEngine(int)`: not implemented - iPlayer=1
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(52:12) `void Audio_CrashPlayer(int)`: not implemented. player=3
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(106:12) `void Audio_StopEngine(int)`: not implemented - iPlayer=3
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(41:12) `void Audio_DisableEngine()`: not implemented
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(41:12) `void Audio_DisableEngine()`: not implemented
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(111:12) `void Audio_ResetData()`: not implemented
+[script] current menu is 'RootMenu', active is '5'
+[script] calling action of 'Quit', type 7
+
+
+[system] shutting down SDL now
+[system] scheduling application exit
+[lua] clean exit
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(117:12) `void Audio_UnloadPlayers()`: not implemented
+file: /workspaces/andi75-gltron/GLtron/audio/SDL2_mixer/sound_glue.cpp(68:12) `void Audio_Quit()`: not implemented
+
+----

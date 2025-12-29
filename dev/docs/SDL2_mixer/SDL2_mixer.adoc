@@ -1,0 +1,86 @@
+= SDL2_mixer
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+== SDL2_mixer
+
+https://wiki.libsdl.org/SDL2/FrontPage
+
+https://github.com/libsdl-org/SDL_mixer
+
+=== SDL_mixer Documentation
+
+https://www.libsdl.org/projects/old/SDL_mixer/docs/index.html
+
+
+https://wiki.libsdl.org/SDL2/Tutorials-AudioStream
+
+
+https://wiki.libsdl.org/SDL2_mixer/FrontPage
+
+=== Migrating to SDL_mixer 3.0
+
+https://wiki.libsdl.org/SDL3_mixer/README-migration
+
+https://wiki.libsdl.org/SDL3_mixer/FrontPage
+
+== CMake
+
+https://cmake.org/cmake/help/latest/module/FindSDL_mixer.html
+
+== YouTube
+
+
+=== [Ep. 40] SDL2 Mixer introduction tutorial (Learn how I learn) | Introduction to SDL2
+
+https://www.youtube.com/watch?v=nl2WB3ADAx8
+
+=== C++ / C SDL_Mixer Tutorial - Play sounds and music with SDL2
+
+https://www.youtube.com/watch?v=o0nyxxWRPnA
+
+=== SOUND WITH C++ | PART 1 | SDL2 Mixer Walkthrough Tutorial How-To | Playing Sound Effects
+
+https://www.youtube.com/watch?v=q06uSmkiqec
+
+=== SOUND WITH C++ | PART 2 | SDL2 Mixer Walkthrough Tutorial How-To | Playing Music
+
+https://www.youtube.com/watch?v=DbZUftR6-yU
+
+=== How to add sound with SDL2
+
+https://www.youtube.com/watch?v=MAeqfcLy64w
+
+=== SDL2.0 tutorial 6 Mixer music and soundeffects
+
+https://www.youtube.com/watch?v=njbh9JE7mbg
+
+== Stash
+
+=== Playing Sounds
+
+https://lazyfoo.net/SDL_tutorials/lesson11/index.php
+
+=== Eine einfache Sound-Klasse mit dem SDL_Mixer
+
+https://www.spieleprogrammierer.de/27-tutorials/11503-eine-einfache-sound-klasse-mit-dem-sdl-mixer/
+
+=== Lesson 06 - Sound & Extension Libraries
+
+https://thenumb.at/cpp-course/sdl2/06/06.html
+
+=== Programming ⇝ Tutorial: Using SDL2 and SDL_Mixer to Play Samples
+
+https://soundprogramming.net/programming/tutorial-using-sdl2-and-sdl_mixer-to-play-samples/
+
+=== SDL mixer:Tutorials:Playing a WAV Sound File
+
+https://moddb.fandom.com/wiki/SDL_mixer:Tutorials:Playing_a_WAV_Sound_File
+
+=== Play Music with SDL3_mixer in SDL3
+
+https://glusoft.com/sdl3-tutorials/play-music-sdl3_mixer/
