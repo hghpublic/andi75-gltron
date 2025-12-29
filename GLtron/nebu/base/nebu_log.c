@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <stdarg.h>
+#if defined(WIN32) || defined(_WIN32)
 #include <windows.h>
 
 FILE* nebu_debug = NULL;
@@ -22,5 +23,11 @@ void nebu_Log(const char* format, ...)
 	if(nebu_debug)
 		fprintf(nebu_debug, buf);
 }
+#else
+FILE* nebu_debug = NULL;
 
+void nebu_Log(const char* format, ...)
+{
+}
+#endif
 
