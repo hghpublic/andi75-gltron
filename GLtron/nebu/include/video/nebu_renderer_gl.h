@@ -22,7 +22,8 @@
 
 #include "SDL_opengl.h"
 #ifndef WIN32
-#include "OpenGL/glu.h"
+#include <GL/glu.h>
+// #include <OpenGL/glu.h>
 #endif
 #endif
 
