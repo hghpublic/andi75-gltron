@@ -37,14 +37,15 @@ void saveSettings(void) {
 	scripting_Run("file = io.open(\"gltron.ini\", \"w\")");
 	scripting_Run("io.output(file)");
 #else
-	{
-		char *path = getPossiblePath(PATH_PREFERENCES, RC_NAME);
-		if(path == NULL)
-			return;
-		scripting_RunFormat("file = io.open(\"%s\", \"w\")", path);
-		scripting_Run("io.output(file)");
-		free(path);
-	}
+// FIXME
+	// {
+	// 	char *path = getPossiblePath(PATH_PREFERENCES, RC_NAME);
+	// 	if(path == NULL)
+	// 		return;
+	// 	scripting_RunFormat("file = io.open(\"%s\", \"w\")", path);
+	// 	scripting_Run("io.output(file)");
+	// 	free(path);
+	// }
 #endif
 
 	scripting_Run("save()");
