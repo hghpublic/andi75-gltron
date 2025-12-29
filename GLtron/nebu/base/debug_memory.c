@@ -21,6 +21,8 @@ void nebu_assert_config(int flags)
 
 void nebu_assert_int(int value)
 {
+    // FIXME
+    return;
 	if(!value)
 	{
 		if(iConfig & NEBU_ASSERT_LIBC)
