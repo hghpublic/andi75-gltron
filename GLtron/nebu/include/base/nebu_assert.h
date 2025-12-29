@@ -1,7 +1,9 @@
 #ifndef _NEBU_ASSERT
 #define _NEBU_ASSERT
 
-#define nebu_assert(x) nebu_assert_int((int)x)
+#include <stdint.h>
+
+#define nebu_assert(x) nebu_assert_int((intptr_t)x)
 
 enum {
 	NEBU_ASSERT_LIBC = 1,
