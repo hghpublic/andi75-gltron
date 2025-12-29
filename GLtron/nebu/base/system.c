@@ -50,7 +50,7 @@ nebu_argv* nebu_argv_Parse(int argc, const char *argv[])
 #pragma GCC diagnostic ignored "-Wconversion"
 			int keyLen = pEq - argv[i] - 2; // "--" subtracted
 			int valLen = strlen(argv[i]) - keyLen - 3; // "--" and "=" subtracted 
-#pragma GCC diagnostic warn "-Wconversion"
+#pragma GCC diagnostic warning "-Wconversion"
 			pArguments->pKeys[iArg] = (char*) malloc((keyLen + 1) * sizeof(char));
 			pArguments->pValues[iArg] = (char*) malloc((valLen + 1) * sizeof(char));
 			strncpy(pArguments->pKeys[iArg], argv[i] + 2, keyLen);
