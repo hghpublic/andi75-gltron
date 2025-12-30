@@ -1,0 +1,28 @@
+{
+    "folders": [
+        {
+            "path": "..",
+            "name": "root"
+        },
+        {
+            "path": "../dev/src/GLtron",
+            "name": "dev/src/GLtron"
+        },
+        {
+            "path": "../dev/src/pulseaudio/src/examples",
+            "name": "dev/src/pulseaudio/src/examples"
+        },
+        {
+            "path": "../dev/src/pulseaudio/src/utils",
+            "name": "dev/src/pulseaudio/src/utils"
+        },
+        {
+            "path": "../dev/src/SDL2_mixer/play_song_revenge_of_cats",
+            "name": "dev/src/SDL2_mixer/play_song_revenge_of_cats"
+        },
+        {
+            "path": "../dev/src/SDL2_mixer/aminosbh/sdl2-mixer-sample",
+            "name": "dev/src/SDL2_mixer/aminosbh/sdl2-mixer-sample"
+        }
+    ]
+}
