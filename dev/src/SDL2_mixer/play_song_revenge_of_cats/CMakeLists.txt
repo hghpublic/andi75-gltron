@@ -23,3 +23,6 @@ target_link_libraries(${target} PRIVATE SDL2::SDL2)
 #         SDL2::SDL2,
 #         SDL2::SDL2-static>
 # )
+# set_target_properties(${target} PROPERTIES
+#     FOLDER "SDL2_mixer/play_song_revenge_of_cats"
+# )

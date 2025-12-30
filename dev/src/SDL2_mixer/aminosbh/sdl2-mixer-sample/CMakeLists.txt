@@ -41,7 +41,9 @@ target_link_libraries(${target} PRIVATE SDL2::SDL2)
 
 find_package(SDL2_mixer CONFIG REQUIRED)
 target_link_libraries(${target} PRIVATE SDL2_mixer::SDL2_mixer)
-
+# set_target_properties(${target} PROPERTIES
+#     FOLDER "SDL2_mixer/sdl2-mixer-sample"
+# )
 
 
 # copy assets
