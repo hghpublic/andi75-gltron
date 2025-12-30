@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "gltron",
+    "version": "0.1.0",
+    "dependencies": [
+        {
+            "name": "ffmpeg",
+            "platform": "!osx"
+        },
+        {
+            "name": "glew",
+            "platform": "!osx"
+        },
+        "libflac",
+        {
+            "name": "libmikmod",
+            "platform": "!osx"
+        },
+        "libmodplug",
+        {
+            "name": "libogg",
+            "platform": "!osx"
+        },
+        "libpng",
+        "libvorbis",
+        "lua",
+        "opengl",
+        "pkgconf",
+        "zlib"
+    ]
+}
