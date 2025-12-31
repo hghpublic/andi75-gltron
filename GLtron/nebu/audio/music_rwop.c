@@ -20,7 +20,8 @@ SDL_RWops* bs_RWFromFile(const char *file) {
   bs_RWop->read = bs_read;
   bs_RWop->seek = NULL;
   bs_RWop->write = NULL;
-  bs_RWop->close = bs_close;
+  typedef int (*close_t)(struct SDL_RWops *);
+  bs_RWop->close = (close_t)bs_close;
     
     return bs_RWop;
 }
