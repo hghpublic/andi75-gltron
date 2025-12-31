@@ -195,7 +195,7 @@ void initVideo(void) {
 }
 
 void initAudio(void) {
-	nebu_Audio_Init();
+	// nebu_Audio_Init();
 	runScript(PATH_SCRIPTS, "audio.lua");
 	/* probe for artpacks & songs */
 	Sound_initTracks();
