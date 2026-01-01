@@ -15,6 +15,7 @@ project(gltron
 # if using valgrind, set BUILD_WITH_ASAN to OFF
 option(BUILD_WITH_ASAN "Build with ASAN" ON)
 option(USE_SDL2_SOUND "Use SDL2_sound library for additional sound formats" OFF)
+# sound in devcontainer only seems to work with SDL2 from apt
 option(USE_APT_SDL2 "Use SDL2 from apt repository on Linux" ON)
 option(USE_VCPKG_SDL2 "Use SDL2 from vcpkg package manager" OFF)
 
