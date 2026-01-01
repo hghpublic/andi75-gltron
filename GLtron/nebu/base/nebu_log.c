@@ -24,10 +24,12 @@ void nebu_Log(const char* format, ...)
 		fprintf(nebu_debug, buf);
 }
 #else
+#if 0
 FILE* nebu_debug = NULL;
 
 void nebu_Log(const char* format, ...)
 {
 }
+#endif
 #endif
 
