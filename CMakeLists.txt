@@ -15,6 +15,8 @@ project(gltron
 # if using valgrind, set BUILD_WITH_ASAN to OFF
 option(BUILD_WITH_ASAN "Build with ASAN" ON)
 option(USE_SDL2_SOUND "Use SDL2_sound library for additional sound formats" OFF)
+option(USE_APT_SDL2 "Use SDL2 from apt repository on Linux" ON)
+option(USE_VCPKG_SDL2 "Use SDL2 from vcpkg package manager" OFF)
 
 # fetch content
 
@@ -128,10 +130,10 @@ target_link_libraries(${target} PRIVATE Vorbis::vorbisfile)
 # target_include_directories(${target} PRIVATE ${LUA_INCLUDE_DIR})
 # target_link_libraries(${target} PRIVATE ${LUA_LIBRARIES})
 target_link_libraries(${target} PRIVATE OpenGL::GL OpenGL::GLU)
-if(true)
+if(USE_APT_SDL2)
 target_link_libraries(${target} PRIVATE SDL2::SDL2)
 target_link_libraries(${target} PRIVATE SDL2_mixer::SDL2_mixer)
-else()
+elseif(USE_VCPKG_SDL2)
 target_link_libraries(${target}
     PRIVATE
     $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
