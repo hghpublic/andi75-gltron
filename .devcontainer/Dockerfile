@@ -1,9 +1,9 @@
 # https://mcr.microsoft.com/v2/devcontainers/cpp/tags/list
 # https://github.com/devcontainers/images/tree/main/src/cpp/history
 # https://docs.docker.com/build/building/variables/
-ARG GET_ALL_NON_BREAKING_CHANGES=1
-ARG ONLY_GET_FIXES=1.2
-FROM mcr.microsoft.com/devcontainers/cpp:${GET_ALL_NON_BREAKING_CHANGES}-ubuntu-24.04
+ARG GET_ALL_NON_BREAKING_CHANGES=3
+ARG ONLY_GET_FIXES=3.0
+FROM mcr.microsoft.com/devcontainers/cpp:${GET_ALL_NON_BREAKING_CHANGES}-ubuntu26.04
 
 # https://cmake.org/download/
 ARG REINSTALL_CMAKE_VERSION_FROM_SOURCE="3.31.10"
@@ -28,10 +28,10 @@ RUN if [ "${REINSTALL_CMAKE_VERSION_FROM_SOURCE}" != "none" ]; then \
 # dev
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
-        gcc-14 g++-14 \
+        gcc-16 g++-16 \
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* \
-    && update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-14 1 \
-    && update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-14 1
+    && update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-16 1 \
+    && update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-16 1
 
 # admin tools
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
